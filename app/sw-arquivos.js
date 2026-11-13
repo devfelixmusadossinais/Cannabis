@@ -1,0 +1,23 @@
+self.APP_ARQUIVOS = [
+  "./index.html",
+  "./manifest.webmanifest",
+  "./sw.js",
+  "./sw-arquivos.js",
+  "./css/app.css",
+  "./js/app.js",
+  "./js/calculadora.js",
+  "./js/estado.js",
+  "./js/telas.js",
+  "./data/bonus.js",
+  "./data/bonus.json",
+  "./data/calculadora.js",
+  "./data/calculadora.json",
+  "./data/guia.js",
+  "./data/guia.json",
+  "./data/receitas.js",
+  "./data/receitas.json",
+  "./data/textos.js",
+  "./data/textos.json",
+  "./icons/icon-192.png",
+  "./icons/icon-512.png"
+];

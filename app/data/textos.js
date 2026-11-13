@@ -1,0 +1,159 @@
+window.DADOS_TEXTOS = {
+  "idioma": "pt-BR",
+  "nome": "Cozinha Verde",
+  "tituloProduto": "Guia Cozinha Verde",
+  "avisoLegal": "Conteúdo exclusivo para maiores de 21 anos, em estados onde o uso adulto de cannabis é legal. Não dirija após consumir. Mantenha longe de crianças e animais.",
+  "nav": {
+    "inicio": "Início",
+    "receitas": "Receitas",
+    "calculadora": "Calculadora",
+    "guia": "Guia",
+    "bonus": "Bônus",
+    "progresso": "Meu progresso",
+    "aria": "Navegação principal"
+  },
+  "planos": {
+    "basico": "Básico",
+    "premium": "Premium"
+  },
+  "gate": {
+    "titulo": "Guia Cozinha Verde",
+    "subtitulo": "Antes de começar",
+    "aceite": "Tenho 21 anos ou mais e moro em um estado onde o uso adulto é legal",
+    "entrar": "Continuar"
+  },
+  "inicio": {
+    "titulo": "Guia Cozinha Verde",
+    "kicker": "Maria Eduarda",
+    "receitas": "Receitas",
+    "calculadora": "Calculadora de Rendimento e Dosagem",
+    "guia": "Guia",
+    "bonus": "3 bônus",
+    "progresso": "Meu progresso"
+  },
+  "botoes": {
+    "voltar": "Voltar",
+    "pdf": "Abrir ficha em PDF",
+    "guiaPdf": "Abrir guia em PDF",
+    "ler": "Abrir no app",
+    "feita": "Marcar como feita",
+    "desmarcar": "Marcar como não feita",
+    "calcular": "Calcular",
+    "exportar": "Exportar progresso",
+    "importar": "Importar progresso (.json)",
+    "zerar": "Zerar progresso",
+    "cancelar": "Cancelar",
+    "confirmar": "Confirmar",
+    "fechar": "Fechar"
+  },
+  "receitas": {
+    "vazio": "Receitas em montagem",
+    "nenhuma": "Nenhuma receita encontrada",
+    "busca": "Buscar receita",
+    "placeholder": "Nome ou ingrediente",
+    "categoria": "Categoria",
+    "todas": "Todas as categorias",
+    "eletrodomestico": "Eletrodoméstico",
+    "todos": "Todos os eletrodomésticos",
+    "foto": "Foto em breve",
+    "naoEncontrada": "Receita não encontrada",
+    "preparo": "Tempo de preparo",
+    "forno": "Tempo de forno",
+    "rendimento": "Rendimento",
+    "ingredientes": "Ingredientes",
+    "passos": "Passo a passo",
+    "sabor": "Dica de sabor",
+    "armazenamento": "Armazenamento",
+    "dose": "Dose",
+    "unidadeDose": "mg de THC por porção",
+    "total": "mg de THC no total",
+    "referencia": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora)",
+    "referenciaValores": "THCA {thca}% · THC {thc}% · eficiência {eficiencia} [CONFERIR]",
+    "perfil": "Perfil da experiência",
+    "intensidade": "Intensidade",
+    "inicio": "Início",
+    "duracao": "Duração",
+    "quandoCombina": "Quando combina",
+    "seguranca": "Aviso de dose"
+  },
+  "categorias": [
+    "Base",
+    "Brownies e bolos",
+    "Cookies e biscoitos",
+    "Docinhos",
+    "Café da manhã",
+    "Bebidas",
+    "Salgados",
+    "Sobremesas geladas",
+    "Gomas e balas"
+  ],
+  "eletrodomesticos": [
+    "air fryer",
+    "forno",
+    "banho-maria",
+    "fogão",
+    "sem cozimento"
+  ],
+  "intensidades": {
+    "leve": "leve",
+    "moderada": "moderada",
+    "forte": "forte"
+  },
+  "calculadora": {
+    "titulo": "Calculadora de Rendimento e Dosagem",
+    "gramas": "Gramas de flor",
+    "thca": "THCA %",
+    "thc": "THC %",
+    "eficiencia": "Eficiência %",
+    "porcoes": "Número de porções",
+    "gordura": "Gordura usada (g, opcional)",
+    "gorduraAjuda": "Só informativo: concentração estimada por 100 g.",
+    "resultado": "Resultado",
+    "total": "THC total estimado (mg)",
+    "porPorcao": "THC por porção estimado (mg)",
+    "por100g": "THC por 100 g estimado (mg)",
+    "conta": "Conta passo a passo",
+    "estimativa": "Estimativa, não é laudo. Teste e rotule.",
+    "alerta": "Atenção: a estimativa passa de 10 mg de THC por porção.",
+    "erro": "Confira os campos: gramas maiores que zero; THCA e THC não negativos, com soma maior que zero; eficiência de 0 a 100%; porções inteiras a partir de 1; gordura, se informada, maior que zero.",
+    "passos": [
+      "Flor: {gramas} g × 1000 = {massa} mg",
+      "× ({thca} × 0,877 + {thc}) ÷ 100 = {bruto} mg",
+      "× eficiência {eficiencia} [CONFERIR] = {total} mg",
+      "÷ {porcoes} porções = {dose} mg por porção"
+    ]
+  },
+  "bonus": {
+    "titulo": "Bônus",
+    "bloqueado": "Bônus disponíveis no plano Premium.",
+    "pendentePdf": "PDF em montagem",
+    "naoEncontrado": "Bônus não encontrado"
+  },
+  "progresso": {
+    "titulo": "Meu progresso",
+    "resumo": "{feitas} de {total} receitas marcadas como feitas",
+    "vazio": "Nenhuma receita marcada como feita",
+    "arquivo": "cozinha-verde-progresso",
+    "exportado": "Progresso exportado.",
+    "importado": "Progresso importado.",
+    "invalido": "Este arquivo não é um progresso válido.",
+    "erroExportar": "Não foi possível exportar o progresso.",
+    "confirmarImportacao": "Importar progresso?",
+    "textoImportacao": "O progresso atual deste aparelho será substituído.",
+    "confirmarZerar": "Zerar progresso?",
+    "textoZerar": "Isso apaga as marcações deste aparelho. Exporte antes se quiser guardar.",
+    "zerado": "Progresso zerado.",
+    "salvo": "Progresso atualizado.",
+    "storage": "Seu progresso não está sendo salvo neste navegador. Em Meu progresso, use Exportar progresso para guardar."
+  },
+  "pwa": {
+    "botao": "📲 Adicionar à tela inicial",
+    "titulo": "Adicionar à tela inicial",
+    "instrucao": "Toque em Compartilhar (quadrado com seta) e depois em 'Adicionar à Tela de Início'",
+    "requisito": "O PWA só instala quando o app é aberto por HTTPS ou localhost, não por duplo clique em file://. O botão e a instrução do iPhone funcionam mesmo assim."
+  },
+  "conteudo": {
+    "pendente": "Conteúdo não incluído: instruções de ativação, extração e preparo de comestíveis com cannabis.",
+    "guiaPdf": "PDF do guia em montagem"
+  }
+};

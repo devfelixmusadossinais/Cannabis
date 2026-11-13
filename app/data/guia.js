@@ -1,0 +1,201 @@
+window.DADOS_GUIA = {
+  "titulo": "Guia Cozinha Verde",
+  "subtitulo": "Cozinhar com esse ingrediente não é chute. É ponto, tempo e conta.",
+  "introducao": "Durante anos eu fiz bolo de festa em Denver. Aniversário, casamento, chá de bebê. Se tem uma coisa que confeiteira aprende, é que receita não aceita chute: um grau a mais no forno e o bolo vai pro lixo.",
+  "autora": "Maria Eduarda",
+  "pdf": "../pdf/guia-cozinha-verde.pdf",
+  "secoes": [
+    {
+      "id": "introducao",
+      "titulo": "Introdução: boas-vindas da Maria Eduarda",
+      "paragrafos": [
+        "Durante anos eu fiz bolo de festa em Denver. Aniversário, casamento, chá de bebê. Se tem uma coisa que confeiteira aprende, é que receita não aceita chute: um grau a mais no forno e o bolo vai pro lixo."
+      ],
+      "itens": []
+    },
+    {
+      "id": "edibles-e-dose",
+      "titulo": "O que são edibles e por que a dose importa",
+      "paragrafos": [
+        "Edibles são alimentos ou bebidas com cannabis. Aqui, a dose é expressa em miligramas de THC por porção: o tamanho do alimento sozinho não informa essa quantidade.",
+        "Início do efeito: 30 min a 2 h. Duração: varia por pessoa [CONFERIR]. Repetir antes de perceber o efeito pode somar doses sem você notar."
+      ],
+      "itens": [
+        "Começar baixo: referência de iniciante de 2,5 a 5 mg de THC.",
+        "Esperar pelo menos 2 horas antes de repetir.",
+        "A calculadora fornece estimativa, não é laudo; confira o rótulo e identifique cada porção."
+      ]
+    },
+    {
+      "id": "comer-x-vaporizar",
+      "titulo": "Comer x vaporizar",
+      "paragrafos": [
+        "A forma de consumo muda a experiência. Não use o tempo percebido em uma forma como regra para a outra.",
+        "o efeito varia por pessoa; não é garantido"
+      ],
+      "itens": [],
+      "tabela": {
+        "cabecalhos": [
+          "Comestível",
+          "Vaporizar"
+        ],
+        "linhas": [
+          [
+            "Início: 30 min a 2 h",
+            "Início: [CONFERIR]"
+          ],
+          [
+            "Duração: varia por pessoa [CONFERIR]",
+            "Duração: [CONFERIR]"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "descarboxilacao",
+      "titulo": "Descarboxilação",
+      "paragrafos": [
+        "Descarboxilação é a transformação de THCA em THC pela ação do calor. Descarboxile a flor primeiro; só depois faça a infusão na manteiga ou no óleo.",
+        "Escolha uma das combinações da tabela, sem somar os tempos. Legenda: valor de referência; teste com termômetro de forno separado. Se o forno doméstico variar de 10 a 25 °F [CONFERIR], use o termômetro para acompanhar a temperatura real, sem confiar apenas no painel."
+      ],
+      "itens": [],
+      "tabela": {
+        "cabecalhos": [
+          "Temperatura",
+          "Tempo",
+          "Observação"
+        ],
+        "linhas": [
+          [
+            "95 °C",
+            "50 min",
+            "valor de referência"
+          ],
+          [
+            "110 °C",
+            "25 min",
+            "valor de referência"
+          ],
+          [
+            "130 °C",
+            "7 min",
+            "valor de referência"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "passo-a-passo-forno",
+      "titulo": "Passo a passo no forno",
+      "paragrafos": [
+        "Separe a quantidade de flor indicada na conta da sua base e escolha uma combinação de tempo e temperatura da tabela de descarboxilação. Os tempos da tabela se referem à etapa de aquecimento, depois do pré-aquecimento."
+      ],
+      "itens": [
+        "1. Moa a flor grosseiramente, sem transformar em pó; tempo de preparo: [CONFERIR].",
+        "2. Forre uma forma com papel-manteiga adequado ao forno e espalhe a flor em uma camada uniforme; tempo de preparo: [CONFERIR].",
+        "3. Pré-aqueça o forno na temperatura escolhida e confira com termômetro de forno separado; tempo de pré-aquecimento: [CONFERIR].",
+        "4. Leve a forma ao forno pré-aquecido e acompanhe o termômetro: 95 °C por 50 min, 110 °C por 25 min ou 130 °C por 7 min. Escolha apenas uma combinação; valor de referência; teste com termômetro de forno separado.",
+        "5. Retire a forma e deixe a flor resfriar antes de usar na infusão; tempo de resfriamento: [CONFERIR].",
+        "6. Se não usar em seguida, transfira a flor fria para um pote fechado, identificado e longe de crianças e animais; prazo de armazenamento: [CONFERIR]."
+      ]
+    },
+    {
+      "id": "forno-eletrico-e-banho-maria",
+      "titulo": "Forno elétrico e banho-maria",
+      "paragrafos": [
+        "Em culinária, a temperatura indicada pelo equipamento pode ser diferente da temperatura dentro do recipiente. O material do recipiente e a transferência de calor também interferem nessa leitura. Acompanhe a temperatura real com termômetro adequado ao método.",
+        "No forno elétrico, siga o passo a passo do forno e uma combinação da tabela. Se cobrir o recipiente com papel-alumínio próprio para forno, sem vedar sob pressão, confira a temperatura dentro dele: a cobertura pode mudar o aquecimento; tempo e ajuste com cobertura: [CONFERIR], teste com termômetro.",
+        "Na air fryer, a circulação de ar pode levantar a flor e o papel soltos. Use somente um recipiente e uma cobertura permitidos pelo fabricante, sem bloquear a circulação nem encostar na resistência. Tempo e temperatura para descarboxilação na air fryer: [CONFERIR]; teste com termômetro. Não transfira automaticamente o ajuste do forno para esse aparelho.",
+        "No banho-maria, use recipiente próprio para aquecimento ou saco próprio para cocção, conforme as instruções do fabricante. Papel-alumínio não substitui um saco estanque dentro da água. A temperatura da água não garante que o interior do recipiente já chegou ao mesmo ponto. Tempo e temperatura de descarboxilação em banho-maria ou sous vide: [CONFERIR]; teste com termômetro. Descarboxile primeiro e faça a infusão depois."
+      ],
+      "itens": [
+        "Confira a compatibilidade do recipiente, do saco, da cobertura e do termômetro com o aparelho antes de aquecer.",
+        "Não aqueça potes hermeticamente fechados que não sejam próprios para esse uso; siga as instruções do fabricante.",
+        "Enquanto os parâmetros do banho-maria e da air fryer estiverem [CONFERIR], use o passo a passo do forno com a tabela de referência para a descarboxilação."
+      ]
+    },
+    {
+      "id": "infusao",
+      "titulo": "Infusão de manteiga e óleo",
+      "paragrafos": [
+        "Descarboxile a flor primeiro, seguindo o passo a passo do forno; só depois misture à gordura. Para este exemplo, use 1 g de flor por xícara de base pronta, considerando 1 xícara = 240 ml. Use manteiga sem sal derretida ou óleo culinário; pese a flor antes da descarboxilação.",
+        "Potência de referência (exemplo, troque pelo seu rótulo na calculadora): THCA 20% e THC 0,5%. Eficiência 0,70: padrão conservador [CONFERIR]. Flor: 1 g × 1000 = 1.000 mg; × (20 × 0,877 + 0,5) ÷ 100 = 180,4 mg; × eficiência 0,70 = 126,3 mg; ÷ 32 porções = 3,9 mg por porção. A conta usa os valores sem arredondamento nas etapas intermediárias; os resultados exibidos têm 1 casa decimal.",
+        "A xícara pronta de 240 ml corresponde a 32 porções de 7,5 ml, com 3,9 mg estimados por porção. Estimativa, não é laudo. A quantidade de flor não permite confirmar a potência final sem análise; perdas na coagem e na lavagem podem alterar o resultado."
+      ],
+      "itens": [
+        "1. Descarboxile 1 g de flor usando uma combinação da tabela e deixe resfriar; tempo de resfriamento: [CONFERIR].",
+        "2. Coloque 240 ml de manteiga sem sal derretida ou de óleo em um recipiente próprio para banho-maria; tempo para derreter a manteiga: [CONFERIR]. Não deixe água entrar na base.",
+        "3. Junte a flor descarboxilada e misture. Aqueça em banho-maria, acompanhando com termômetro e mexendo durante a infusão; tempo e temperatura: [CONFERIR], teste com termômetro. Não deixe a água do banho secar.",
+        "4. Retire do aquecimento e, quando for seguro manusear, coe em peneira fina com tecido próprio para alimentos, recolhendo a gordura em recipiente limpo; tempo para resfriar e coar: [CONFERIR]. Meça o volume recuperado e complete com a mesma gordura sem infusão até 240 ml, misturando bem; a conta continua sendo uma estimativa.",
+        "5. Para lavar a manteiga pronta, misture-a derretida com água potável em recipiente limpo e leve à geladeira até a gordura formar uma camada firme; proporção de água, temperatura de derretimento e tempo de refrigeração: [CONFERIR]. Retire a placa de manteiga e descarte a água. A lavagem ajuda a reduzir o gosto vegetal e componentes associados à clorofila; não garante sua eliminação nem uma potência final específica. Não aplique esta separação a óleo líquido.",
+        "6. Misture a base pronta antes de dividir, separe as 32 porções de 7,5 ml quando o volume final for 240 ml e rotule com data, contém THC e 3,9 mg estimados por porção. Se o volume final mudar após a lavagem, recalcule as porções pelo volume realmente obtido. Guarde em recipiente fechado na geladeira, longe de crianças e animais; prazo de armazenamento: [CONFERIR]."
+      ]
+    },
+    {
+      "id": "azeite-oleo-de-coco-e-mel",
+      "titulo": "Azeite, óleo de coco e mel",
+      "paragrafos": [
+        "Como ingredientes culinários, azeite combina com molhos e finalizações; óleo de coco, com chocolate e coco; mel, com bebidas e coberturas. O sabor da base não indica sua potência. Descarboxile a flor primeiro, conforme a tabela, e só depois faça a infusão na gordura.",
+        "Para azeite ou óleo de coco, use a referência de 1 g de flor para 240 ml de base pronta e siga a seção de infusão. Potência de referência (exemplo, troque pelo seu rótulo na calculadora): THCA 20% e THC 0,5%. Flor: 1 g × 1000 = 1.000 mg; × (20 × 0,877 + 0,5) ÷ 100 = 180,4 mg; × eficiência 0,70 = 126,3 mg; ÷ 32 porções = 3,9 mg por porção. Eficiência 0,70: padrão conservador [CONFERIR]. Cada porção corresponde a 7,5 ml da base final de 240 ml; estimativa, não é laudo.",
+        "Para o mel, prepare primeiro uma gordura infusionada e coada; não trate o mel puro como substituto da gordura na etapa de infusão. Como exemplo de uso culinário, misture 15 ml do óleo de coco infusionado com 30 ml de mel para uma cobertura de 2 porções. Potência de referência (exemplo, troque pelo seu rótulo na calculadora): THCA 20% e THC 0,5%. A fração de 15 ml equivale a 0,0625 g da flor do lote: Flor: 0,0625 g × 1000 = 62,5 mg; × (20 × 0,877 + 0,5) ÷ 100 = 11,275 mg; × eficiência 0,70 = 7,9 mg; ÷ 2 porções = 3,9 mg por porção. Eficiência 0,70: padrão conservador [CONFERIR]. A conta usa valores sem arredondamento até o resultado final."
+      ],
+      "itens": [
+        "Azeite: misture a base antes de medir e distribua 7,5 ml por porção de molho ou finalização, com 3,9 mg estimados. Se usar 30 ml em uma receita dividida em 4 porções, mantenha 3,9 mg estimados por porção.",
+        "Óleo de coco: se estiver sólido, aqueça somente até ficar líquido e misture antes de medir; tempo e temperatura: [CONFERIR], teste com termômetro. Use 7,5 ml por porção, com 3,9 mg estimados, e conte esse volume dentro da gordura total da receita.",
+        "Mel com óleo infusionado: misture os 15 ml de óleo com os 30 ml de mel imediatamente antes de servir e divida a mistura igualmente em 2 porções. Óleo e mel podem se separar; volte a misturar antes de dividir. Cada metade contém 3,9 mg estimados; não conte uma colher retirada de uma mistura separada como dose uniforme.",
+        "Rotule cada base com data, contém THC, volume e dose estimada por porção. Guarde em recipiente fechado, separado dos alimentos comuns e longe de crianças e animais; condições e prazo de armazenamento de cada mistura: [CONFERIR]."
+      ]
+    },
+    {
+      "id": "receitas-por-capitulo",
+      "titulo": "Receitas por capítulo",
+      "paragrafos": [
+        "Abra a aba Receitas e procure pelo número ou pelo nome indicado abaixo. Os ingredientes e o modo de preparo ficam nas fichas."
+      ],
+      "itens": [
+        "Brigadeiro: receita 20 — Brigadeiro Clássico.",
+        "Space Cake: receita 13 — Space Cake.",
+        "Pipoca: receita 43 — Pipoca na Manteiga Ativada.",
+        "Cookies: receita 14 — Cookies Crocantes; receita 15 — Cookies de Aveia e Canela; receita 16 — Biscoito Amanteigado; receita 17 — Cookie de Manteiga de Amendoim; receita 18 — Biscoito de Gengibre; receita 19 — Cookies de Chocolate Branco.",
+        "Sorvete: receita 45 — Sorvete de Baunilha.",
+        "Chá: receita 38 — Chá Gelado de Pêssego.",
+        "Leite de Cânhamo: receita 36 — Leite de Cânhamo Ativado.",
+        "Hempesto: receita 44 — Hempesto (Pesto de Cânhamo Ativado).",
+        "Bolo de Aniversário: receita 11 — Bolo de Aniversário Ativado.",
+        "Mel: receita 5 — Mel Ativado.",
+        "Pizza de Frigideira: receita 42 — Pizza de Frigideira."
+      ]
+    },
+    {
+      "id": "passou-da-dose",
+      "titulo": "O que fazer se passou da dose",
+      "paragrafos": [
+        "Ambiente calmo e conhecido, água, comer algo, descansar.",
+        "Procurar emergência 911 se houver dor no peito, falta de ar, convulsão ou se a pessoa não acorda.",
+        "Poison Control 1-800-222-1222 se for criança.",
+        "Se for animal: procurar atendimento veterinário imediatamente."
+      ],
+      "itens": [
+        "Não dirigir.",
+        "Não misturar com álcool.",
+        "Interações com remédios: consultar médico."
+      ]
+    },
+    {
+      "id": "dicas-finais",
+      "titulo": "Dicas finais",
+      "paragrafos": [
+        "Uso exclusivo para adultos de 21 anos ou mais, somente onde for legal; confira a legalidade no seu estado."
+      ],
+      "itens": [
+        "Rotular com data, quantidade de porções, estimativa de THC por porção e a indicação contém THC.",
+        "Separar e identificar as porções antes de servir.",
+        "Guardar longe de crianças e animais, separado dos alimentos comuns.",
+        "Começar baixo: referência de iniciante de 2,5 a 5 mg de THC.",
+        "Esperar pelo menos 2 horas antes de repetir.",
+        "Não dirigir e não misturar com álcool.",
+        "Consultar médico sobre interações com remédios."
+      ]
+    }
+  ]
+};

@@ -1,0 +1,2651 @@
+window.DADOS_RECEITAS = [
+  {
+    "n": 1,
+    "id": "r01",
+    "slug": "manteiga-ativada",
+    "nome": "Manteiga Ativada",
+    "categoria": "Base",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-01-manteiga-ativada.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "240 ml (16 colheres de sopa de 15 ml)",
+    "porcoes": 16,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "240 ml de manteiga sem sal",
+      "240 ml de água",
+      "0,5 g de flor seca"
+    ],
+    "passos": [
+      "Ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado).",
+      "Misture a flor ativada, a manteiga e a água por 1 min.",
+      "Aqueça em banho-maria abaixo de 93 °C por 2 horas, conferindo com termômetro.",
+      "Coe sem apertar o pano por 5 min e deixe esfriar por 30 min.",
+      "Leve à geladeira de um dia para o outro, retire a manteiga sólida e descarte a água; meça 240 ml de manteiga pronta e divida em 16 colheres de sopa de 15 ml [CONFERIR]."
+    ],
+    "dicaSabor": "Use manteiga sem sal para adaptar a base a receitas doces ou salgadas.",
+    "armazenamento": "Guarde refrigerada em recipiente fechado e identificado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.5,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 63.1,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,5 g × 1000 = 500 mg; × (20 × 0,877 + 0,5) ÷ 100 = 90,2 mg; × eficiência 0,70 [CONFERIR] = 63,1 mg; ÷ 16 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-01-manteiga-ativada.pdf",
+    "promptImagem": "Fotografia culinária de Manteiga Ativada, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 2,
+    "id": "r02",
+    "slug": "oleo-de-coco-ativado",
+    "nome": "Óleo de Coco Ativado",
+    "categoria": "Base",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-02-oleo-de-coco-ativado.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "240 ml (16 colheres de sopa de 15 ml)",
+    "porcoes": 16,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "240 ml de óleo de coco",
+      "0,5 g de flor seca"
+    ],
+    "passos": [
+      "Ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado).",
+      "Misture a flor ativada ao óleo em recipiente próprio para banho-maria por 1 min.",
+      "Aqueça em banho-maria abaixo de 93 °C por 2 horas, conferindo com termômetro [CONFERIR].",
+      "Coe sem espremer por 5 min, deixe esfriar por 30 min e meça 240 ml de óleo pronto; divida em 16 colheres de sopa de 15 ml [CONFERIR]."
+    ],
+    "dicaSabor": "O óleo de coco combina com chocolate e coco ralado.",
+    "armazenamento": "Guarde em recipiente fechado e identificado; prazo e temperatura [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.5,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 63.1,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,5 g × 1000 = 500 mg; × (20 × 0,877 + 0,5) ÷ 100 = 90,2 mg; × eficiência 0,70 [CONFERIR] = 63,1 mg; ÷ 16 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-02-oleo-de-coco-ativado.pdf",
+    "promptImagem": "Fotografia culinária de Óleo de Coco Ativado, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 3,
+    "id": "r03",
+    "slug": "azeite-ativado",
+    "nome": "Azeite Ativado",
+    "categoria": "Base",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-03-azeite-ativado.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "240 ml (16 colheres de sopa de 15 ml)",
+    "porcoes": 16,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "240 ml de azeite",
+      "0,5 g de flor seca"
+    ],
+    "passos": [
+      "Ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado).",
+      "Misture a flor ativada ao azeite em recipiente próprio para banho-maria por 1 min.",
+      "Aqueça em banho-maria abaixo de 93 °C por 2 horas, conferindo com termômetro [CONFERIR].",
+      "Coe sem espremer por 5 min, deixe esfriar por 30 min e meça 240 ml de azeite pronto; divida em 16 colheres de sopa de 15 ml [CONFERIR]."
+    ],
+    "dicaSabor": "Escolha azeite de sabor suave para não dominar o prato.",
+    "armazenamento": "Guarde em recipiente fechado e identificado; prazo e temperatura [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.5,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 63.1,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,5 g × 1000 = 500 mg; × (20 × 0,877 + 0,5) ÷ 100 = 90,2 mg; × eficiência 0,70 [CONFERIR] = 63,1 mg; ÷ 16 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-03-azeite-ativado.pdf",
+    "promptImagem": "Fotografia culinária de Azeite Ativado, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 4,
+    "id": "r04",
+    "slug": "leite-ativado",
+    "nome": "Leite Ativado",
+    "categoria": "Base",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-04-leite-ativado.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "120 ml (8 colheres de sopa de 15 ml)",
+    "porcoes": 8,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "120 ml de leite integral",
+      "0,25 g de flor seca"
+    ],
+    "passos": [
+      "Ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado).",
+      "Misture a flor ativada ao leite em recipiente próprio para banho-maria por 1 min.",
+      "Aqueça em banho-maria abaixo de 93 °C por 2 horas, conferindo com termômetro [CONFERIR].",
+      "Coe sem espremer por 5 min e resfrie; meça 120 ml de leite pronto e divida em 8 colheres de sopa de 15 ml [CONFERIR]."
+    ],
+    "dicaSabor": "Use leite integral para uma base de sabor mais encorpado.",
+    "armazenamento": "Refrigere em recipiente fechado e identificado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.25,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 31.6,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,25 g × 1000 = 250 mg; × (20 × 0,877 + 0,5) ÷ 100 = 45,1 mg; × eficiência 0,70 [CONFERIR] = 31,6 mg; ÷ 8 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-04-leite-ativado.pdf",
+    "promptImagem": "Fotografia culinária de Leite Ativado, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 5,
+    "id": "r05",
+    "slug": "mel-ativado",
+    "nome": "Mel Ativado",
+    "categoria": "Base",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-05-mel-ativado.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "120 ml (8 colheres de sopa de 15 ml)",
+    "porcoes": 8,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "120 ml de mel",
+      "0,25 g de flor seca"
+    ],
+    "passos": [
+      "Ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado).",
+      "Misture a flor ativada ao mel em recipiente próprio para banho-maria por 1 min.",
+      "Aqueça em banho-maria abaixo de 93 °C por 2 horas, conferindo com termômetro; a extração em mel é incerta [CONFERIR].",
+      "Coe sem espremer por 5 min e deixe esfriar; meça 120 ml de mel pronto e divida em 8 colheres de sopa de 15 ml [CONFERIR]."
+    ],
+    "dicaSabor": "Misture uma pitada de canela ao mel para variar o sabor.",
+    "armazenamento": "Guarde em recipiente fechado e identificado; prazo e temperatura [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.25,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 31.6,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,25 g × 1000 = 250 mg; × (20 × 0,877 + 0,5) ÷ 100 = 45,1 mg; × eficiência 0,70 [CONFERIR] = 31,6 mg; ÷ 8 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-05-mel-ativado.pdf",
+    "promptImagem": "Fotografia culinária de Mel Ativado, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 6,
+    "id": "r06",
+    "slug": "acucar-ativado",
+    "nome": "Açúcar Ativado",
+    "categoria": "Base",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-06-acucar-ativado.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "8 colheres de sopa de mistura pronta",
+    "porcoes": 8,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "8 colheres de sopa de açúcar",
+      "0,25 g de flor seca"
+    ],
+    "passos": [
+      "Ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado).",
+      "Triture a flor ativada por 1 min até ficar fina [CONFERIR].",
+      "Misture com o açúcar por 3 min, raspando as laterais para distribuir o pó [CONFERIR].",
+      "Divida a mistura em 8 colheres de sopa niveladas durante 2 min; a distribuição da dose é incerta [CONFERIR]."
+    ],
+    "dicaSabor": "Açúcar mascavo acrescenta notas de caramelo.",
+    "armazenamento": "Guarde em recipiente seco, fechado e identificado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.25,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 31.6,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,25 g × 1000 = 250 mg; × (20 × 0,877 + 0,5) ÷ 100 = 45,1 mg; × eficiência 0,70 [CONFERIR] = 31,6 mg; ÷ 8 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-06-acucar-ativado.pdf",
+    "promptImagem": "Fotografia culinária de Açúcar Ativado, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 7,
+    "id": "r07",
+    "slug": "brownie-no-ponto",
+    "nome": "Brownie no Ponto",
+    "categoria": "Brownies e bolos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-07-brownie-no-ponto.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "25 min",
+    "rendimento": "8 porções (1 brownie)",
+    "porcoes": 8,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "8 colheres de sopa (120 ml) de manteiga ativada da receita 1",
+      "150 g de chocolate meio amargo",
+      "2 ovos",
+      "100 g de açúcar",
+      "80 g de farinha de trigo",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Derreta o chocolate com a manteiga em fogo baixo por 3 min e espere esfriar por 5 min.",
+      "Bata ovos e açúcar por 2 min e incorpore o chocolate por 1 min.",
+      "Misture a farinha e o sal por 1 min, raspando o fundo da tigela.",
+      "Asse em forma pequena untada a 180 °C por 25 min; esfrie por 30 min e corte em 8 partes."
+    ],
+    "dicaSabor": "Use chocolate meio amargo para um sabor mais intenso.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.25,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 31.6,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,25 g × 1000 = 250 mg; × (20 × 0,877 + 0,5) ÷ 100 = 45,1 mg; × eficiência 0,70 [CONFERIR] = 31,6 mg; ÷ 8 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-07-brownie-no-ponto.pdf",
+    "promptImagem": "Fotografia culinária de Brownie no Ponto, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 8,
+    "id": "r08",
+    "slug": "bolo-de-cenoura-ativado",
+    "nome": "Bolo de Cenoura Ativado",
+    "categoria": "Brownies e bolos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-08-bolo-de-cenoura-ativado.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "35 min",
+    "rendimento": "12 porções (1 fatia)",
+    "porcoes": 12,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "12 colheres de sopa (180 ml) de manteiga ativada da receita 1",
+      "200 g de cenoura ralada",
+      "3 ovos",
+      "150 g de açúcar",
+      "180 g de farinha de trigo",
+      "1 colher de sopa de fermento químico"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Bata cenoura, ovos, açúcar e manteiga por 3 min.",
+      "Misture a farinha por 1 min e incorpore o fermento por 30 segundos.",
+      "Asse em forma untada a 180 °C por 35 min; esfrie por 30 min e corte em 12 fatias."
+    ],
+    "dicaSabor": "Uma pitada de canela combina com a cenoura.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.375,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 47.4,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,375 g × 1000 = 375 mg; × (20 × 0,877 + 0,5) ÷ 100 = 67,65 mg; × eficiência 0,70 [CONFERIR] = 47,4 mg; ÷ 12 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-08-bolo-de-cenoura-ativado.pdf",
+    "promptImagem": "Fotografia culinária de Bolo de Cenoura Ativado, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 9,
+    "id": "r09",
+    "slug": "bolo-de-caneca-de-chocolate",
+    "nome": "Bolo de Caneca de Chocolate",
+    "categoria": "Brownies e bolos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-09-bolo-de-caneca-de-chocolate.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "1 porção (1 bolo de caneca)",
+    "porcoes": 1,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "1 colher de sopa (15 ml) de manteiga ativada da receita 1",
+      "3 colheres de sopa de farinha de trigo",
+      "1 colher de sopa de cacau em pó",
+      "2 colheres de sopa de açúcar",
+      "3 colheres de sopa de leite",
+      "1 colher de chá de fermento químico"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Misture manteiga, leite e açúcar em caneca resistente ao calor por 1 min.",
+      "Acrescente farinha, cacau e fermento e misture por 1 min, raspando o fundo.",
+      "Cozinhe a caneca tampada em banho-maria no fogão por 20 min [CONFERIR]; confira o centro e espere esfriar por 5 min."
+    ],
+    "dicaSabor": "Uma pitada de canela destaca o chocolate.",
+    "armazenamento": "Refrigere a sobra em recipiente fechado e identificado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.03125,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 3.9,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,03125 g × 1000 = 31,25 mg; × (20 × 0,877 + 0,5) ÷ 100 = 5,6375 mg; × eficiência 0,70 [CONFERIR] = 3,9 mg; ÷ 1 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-09-bolo-de-caneca-de-chocolate.pdf",
+    "promptImagem": "Fotografia culinária de Bolo de Caneca de Chocolate, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 10,
+    "id": "r10",
+    "slug": "blondie-de-baunilha",
+    "nome": "Blondie de Baunilha",
+    "categoria": "Brownies e bolos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-10-blondie-de-baunilha.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "25 min",
+    "rendimento": "8 porções (1 quadrado)",
+    "porcoes": 8,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "8 colheres de sopa (120 ml) de manteiga ativada da receita 1",
+      "140 g de açúcar mascavo",
+      "2 ovos",
+      "160 g de farinha de trigo",
+      "1 colher de chá de extrato de baunilha",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Misture manteiga, açúcar e baunilha por 2 min.",
+      "Junte os ovos e misture por 1 min; incorpore farinha e sal por mais 1 min.",
+      "Asse em forma pequena untada a 180 °C por 25 min; esfrie por 30 min e corte em 8 quadrados."
+    ],
+    "dicaSabor": "Acrescente raspas de laranja à massa.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.25,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 31.6,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,25 g × 1000 = 250 mg; × (20 × 0,877 + 0,5) ÷ 100 = 45,1 mg; × eficiência 0,70 [CONFERIR] = 31,6 mg; ÷ 8 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-10-blondie-de-baunilha.pdf",
+    "promptImagem": "Fotografia culinária de Blondie de Baunilha, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 11,
+    "id": "r11",
+    "slug": "bolo-de-aniversario-ativado",
+    "nome": "Bolo de Aniversário Ativado",
+    "categoria": "Brownies e bolos",
+    "subtitulo": "Massa branca com cobertura de creme de manteiga",
+    "imagem": "img/receitas/receita-11-bolo-de-aniversario-ativado.webp",
+    "tempoPreparo": "55 min, mais o tempo de infusão e resfriamento",
+    "tempoForno": "30 a 35 min [CONFERIR], além da ativação",
+    "rendimento": "10 porções (1 fatia)",
+    "porcoes": 10,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "0,4 g de flor seca",
+      "120 g de manteiga sem sal para a infusão",
+      "120 ml de água para a infusão, mais água para o banho-maria",
+      "180 g de farinha de trigo",
+      "120 g de açúcar",
+      "2 ovos",
+      "120 ml de leite",
+      "1 colher de chá de extrato de baunilha",
+      "1 colher de chá de fermento químico",
+      "120 g de açúcar de confeiteiro",
+      "1 colher de sopa de leite para a cobertura"
+    ],
+    "passos": [
+      "Aqueça o forno a 105 a 115 °C e espalhe os 0,4 g de flor em uma assadeira; deixe por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, mantenha a flor ativada, os 120 g de manteiga e os 120 ml de água abaixo de 93 °C por 2 a 4 h; teste com termômetro, coe sem espremer e refrigere até separar a manteiga da água [CONFERIR]. Descarte a água e use toda a manteiga recuperada, dividida igualmente entre massa e cobertura.",
+      "Em 10 min, bata metade da manteiga infusionada com o açúcar, junte os ovos, o leite e a baunilha e incorpore a farinha e o fermento até formar uma massa uniforme.",
+      "Distribua a massa em uma forma untada e asse a 180 °C por 30 a 35 min [CONFERIR]; teste com termômetro de forno separado e deixe esfriar por 30 min [CONFERIR].",
+      "Em 5 min, bata a outra metade da manteiga infusionada com o açúcar de confeiteiro e a colher de leite; misture bem, espalhe uniformemente e corte em 10 fatias iguais."
+    ],
+    "dicaSabor": "Acrescente raspas de limão à cobertura para contrastar com a baunilha.",
+    "armazenamento": "Guarde em recipiente fechado e rotulado na geladeira; prazo de conservação [CONFERIR].",
+    "dicaSeguranca": "Misture bem, divida em 10 fatias iguais e rotule cada porção com a dose estimada.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção. Valores arredondados; estimativa, não é laudo."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "celebração em casa"
+    },
+    "pdf": "../pdf/receita-11-bolo-de-aniversario-ativado.pdf",
+    "promptImagem": "Fotografia de bolo de aniversário de massa branca com cobertura de creme de manteiga, uma fatia servida em prato, luz natural em cozinha, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 12,
+    "id": "r12",
+    "slug": "cheesecake-de-potinho",
+    "nome": "Cheesecake de Potinho",
+    "categoria": "Brownies e bolos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-12-cheesecake-de-potinho.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "4 porções (1 potinho)",
+    "porcoes": 4,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "4 colheres de sopa (60 ml) de manteiga ativada da receita 1",
+      "100 g de biscoito triturado",
+      "200 g de cream cheese",
+      "100 g de iogurte natural",
+      "2 colheres de sopa de açúcar",
+      "1 colher de sopa de suco de limão"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Misture o cream cheese, o iogurte, o açúcar, o limão e a manteiga amolecida por 3 min, até ficar uniforme [CONFERIR].",
+      "Distribua o biscoito em 4 potinhos durante 2 min.",
+      "Divida o creme igualmente entre os 4 potinhos por 2 min e refrigere por 2 horas."
+    ],
+    "dicaSabor": "Sirva com raspas de limão.",
+    "armazenamento": "Mantenha refrigerado em potinhos fechados e identificados; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.125,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 15.8,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,125 g × 1000 = 125 mg; × (20 × 0,877 + 0,5) ÷ 100 = 22,55 mg; × eficiência 0,70 [CONFERIR] = 15,8 mg; ÷ 4 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-12-cheesecake-de-potinho.pdf",
+    "promptImagem": "Fotografia culinária de Cheesecake de Potinho, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 13,
+    "id": "r13",
+    "slug": "space-cake",
+    "nome": "Space Cake",
+    "categoria": "Brownies e bolos",
+    "subtitulo": "Bolo simples de baunilha em fatias",
+    "imagem": "img/receitas/receita-13-space-cake.webp",
+    "tempoPreparo": "50 min, mais o tempo de infusão e resfriamento",
+    "tempoForno": "30 a 40 min [CONFERIR], além da ativação",
+    "rendimento": "10 porções (1 fatia de 80 g)",
+    "porcoes": 10,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "0,3 g de flor seca",
+      "100 g de manteiga sem sal para a infusão",
+      "100 ml de água para a infusão, mais água para o banho-maria",
+      "220 g de farinha de trigo",
+      "150 g de açúcar",
+      "3 ovos",
+      "150 ml de leite",
+      "1 colher de chá de extrato de baunilha",
+      "1 colher de chá de fermento químico"
+    ],
+    "passos": [
+      "Aqueça o forno a 105 a 115 °C e espalhe os 0,3 g de flor em uma assadeira; deixe por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, mantenha a flor ativada, os 100 g de manteiga e os 100 ml de água abaixo de 93 °C por 2 a 4 h; teste com termômetro, coe sem espremer e refrigere até separar a manteiga da água [CONFERIR]. Descarte a água e use toda a manteiga recuperada na massa.",
+      "Em 10 min, bata a manteiga infusionada com o açúcar e os ovos; adicione o leite e a baunilha e misture a farinha e o fermento até a massa ficar uniforme.",
+      "Coloque em forma untada e asse a 180 °C por 30 a 40 min [CONFERIR]; teste com termômetro de forno separado e deixe esfriar por 30 min [CONFERIR].",
+      "Em 5 min, pese o bolo frio: o rendimento previsto é de 800 g [CONFERIR]. Divida o bolo inteiro em 10 fatias iguais; elas terão 80 g cada se o peso final for 800 g. Se o peso for diferente, mantenha as 10 fatias iguais e confira o peso de cada uma."
+    ],
+    "dicaSabor": "Use baunilha e raspas de laranja para dar aroma à massa.",
+    "armazenamento": "Guarde as fatias em recipiente fechado e rotulado; prazo e temperatura de conservação [CONFERIR].",
+    "dicaSeguranca": "Misture a massa cuidadosamente e identifique as 10 fatias com a dose estimada, considerando também eventual sobra.",
+    "dose": {
+      "gramasFlor": 0.3,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 37.9,
+      "mgPorPorcao": 3.8,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,3 g × 1000 = 300 mg; × (20 × 0,877 + 0,5) ÷ 100 = 54,1 mg; × eficiência 0,70 [CONFERIR] = 37,9 mg; ÷ 10 porções = 3,8 mg por porção. Valores arredondados; estimativa, não é laudo."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-13-space-cake.pdf",
+    "promptImagem": "Fotografia de bolo simples de baunilha fatiado, uma fatia em prato de cerâmica, luz natural em cozinha, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 14,
+    "id": "r14",
+    "slug": "cookies-crocantes",
+    "nome": "Cookies Crocantes",
+    "categoria": "Cookies e biscoitos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-14-cookies-crocantes.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "15 min",
+    "rendimento": "12 porções (1 cookie)",
+    "porcoes": 12,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "12 colheres de sopa (180 ml) de manteiga ativada da receita 1",
+      "120 g de açúcar mascavo",
+      "1 ovo",
+      "220 g de farinha de trigo",
+      "80 g de gotas de chocolate",
+      "1 colher de chá de fermento químico"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Bata a manteiga e o açúcar por 2 min; acrescente o ovo e misture por 1 min.",
+      "Junte farinha, fermento e chocolate e misture por 2 min.",
+      "Divida em 12 montinhos e asse a 180 °C por 15 min; esfrie por 20 min."
+    ],
+    "dicaSabor": "Adicione uma pitada de sal para destacar o chocolate.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.375,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 47.4,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,375 g × 1000 = 375 mg; × (20 × 0,877 + 0,5) ÷ 100 = 67,65 mg; × eficiência 0,70 [CONFERIR] = 47,4 mg; ÷ 12 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-14-cookies-crocantes.pdf",
+    "promptImagem": "Fotografia culinária de Cookies Crocantes, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 15,
+    "id": "r15",
+    "slug": "cookies-de-aveia-e-canela",
+    "nome": "Cookies de Aveia e Canela",
+    "categoria": "Cookies e biscoitos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-15-cookies-de-aveia-e-canela.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "15 min",
+    "rendimento": "12 porções (1 cookie)",
+    "porcoes": 12,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "12 colheres de sopa (180 ml) de manteiga ativada da receita 1",
+      "100 g de açúcar mascavo",
+      "1 ovo",
+      "120 g de aveia em flocos",
+      "120 g de farinha de trigo",
+      "1 colher de chá de canela",
+      "1 colher de chá de fermento químico"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Misture manteiga, açúcar e ovo por 2 min.",
+      "Acrescente aveia, farinha, canela e fermento e misture por 2 min.",
+      "Divida em 12 montinhos e asse a 180 °C por 15 min; esfrie por 20 min."
+    ],
+    "dicaSabor": "Acrescente raspas de laranja à massa.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.375,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 47.4,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,375 g × 1000 = 375 mg; × (20 × 0,877 + 0,5) ÷ 100 = 67,65 mg; × eficiência 0,70 [CONFERIR] = 47,4 mg; ÷ 12 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-15-cookies-de-aveia-e-canela.pdf",
+    "promptImagem": "Fotografia culinária de Cookies de Aveia e Canela, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 16,
+    "id": "r16",
+    "slug": "biscoito-amanteigado",
+    "nome": "Biscoito Amanteigado",
+    "categoria": "Cookies e biscoitos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-16-biscoito-amanteigado.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "15 min",
+    "rendimento": "12 porções (1 biscoito)",
+    "porcoes": 12,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "12 colheres de sopa (180 ml) de manteiga ativada da receita 1",
+      "100 g de açúcar",
+      "240 g de farinha de trigo",
+      "1 colher de chá de extrato de baunilha",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Misture manteiga, açúcar e baunilha por 3 min.",
+      "Junte farinha e sal e misture por 2 min; refrigere a massa por 20 min.",
+      "Divida em 12 unidades, achate e asse a 180 °C por 15 min; esfrie por 20 min."
+    ],
+    "dicaSabor": "Experimente raspas de limão na massa.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.375,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 47.4,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,375 g × 1000 = 375 mg; × (20 × 0,877 + 0,5) ÷ 100 = 67,65 mg; × eficiência 0,70 [CONFERIR] = 47,4 mg; ÷ 12 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-16-biscoito-amanteigado.pdf",
+    "promptImagem": "Fotografia culinária de Biscoito Amanteigado, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 17,
+    "id": "r17",
+    "slug": "cookie-de-manteiga-de-amendoim",
+    "nome": "Cookie de Manteiga de Amendoim",
+    "categoria": "Cookies e biscoitos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-17-cookie-de-manteiga-de-amendoim.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "15 min",
+    "rendimento": "8 porções (1 cookie)",
+    "porcoes": 8,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "8 colheres de sopa (120 ml) de manteiga ativada da receita 1",
+      "120 g de manteiga de amendoim",
+      "100 g de açúcar",
+      "1 ovo",
+      "100 g de farinha de trigo",
+      "1 colher de chá de fermento químico"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Misture as duas manteigas, o açúcar e o ovo por 3 min.",
+      "Acrescente farinha e fermento e misture por 1 min.",
+      "Divida em 8 montinhos, achate com garfo e asse a 180 °C por 15 min; esfrie por 20 min."
+    ],
+    "dicaSabor": "Uma pitada de sal realça o amendoim.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.25,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 31.6,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,25 g × 1000 = 250 mg; × (20 × 0,877 + 0,5) ÷ 100 = 45,1 mg; × eficiência 0,70 [CONFERIR] = 31,6 mg; ÷ 8 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-17-cookie-de-manteiga-de-amendoim.pdf",
+    "promptImagem": "Fotografia culinária de Cookie de Manteiga de Amendoim, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 18,
+    "id": "r18",
+    "slug": "biscoito-de-gengibre",
+    "nome": "Biscoito de Gengibre",
+    "categoria": "Cookies e biscoitos",
+    "subtitulo": "Preparo em porções para medir e servir.",
+    "imagem": "img/receitas/receita-18-biscoito-de-gengibre.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "12 min",
+    "rendimento": "12 porções (1 biscoito)",
+    "porcoes": 12,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "12 colheres de sopa (180 ml) de manteiga ativada da receita 1",
+      "100 g de açúcar mascavo",
+      "1 ovo",
+      "230 g de farinha de trigo",
+      "1 colher de chá de gengibre em pó",
+      "1 colher de chá de canela",
+      "1 colher de chá de fermento químico"
+    ],
+    "passos": [
+      "Para a manteiga da receita 1, ative a flor em forno a 105 a 115 °C por 30 a 40 min (valor de referência, teste com termômetro de forno separado); prepare e meça a manteiga conforme a receita 1.",
+      "Misture manteiga, açúcar e ovo por 3 min.",
+      "Junte farinha, gengibre, canela e fermento e misture por 2 min; refrigere por 20 min.",
+      "Divida em 12 unidades, achate e asse a 180 °C por 12 min; esfrie por 20 min."
+    ],
+    "dicaSabor": "Combine gengibre e raspas de laranja.",
+    "armazenamento": "Guarde fechado e identificado em temperatura adequada; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e identifique as porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.375,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 47.4,
+      "mgPorPorcao": 3.9,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,375 g × 1000 = 375 mg; × (20 × 0,877 + 0,5) ÷ 100 = 67,65 mg; × eficiência 0,70 [CONFERIR] = 47,4 mg; ÷ 12 porções = 3,9 mg por porção (estimativa, não é laudo; arredondamento ao final)."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "preparo para servir em casa"
+    },
+    "pdf": "../pdf/receita-18-biscoito-de-gengibre.pdf",
+    "promptImagem": "Fotografia culinária de Biscoito de Gengibre, apresentada em cozinha doméstica, luz natural suave, composição de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 19,
+    "id": "r19",
+    "slug": "cookies-de-chocolate-branco",
+    "nome": "Cookies de Chocolate Branco",
+    "categoria": "Cookies e biscoitos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-19-cookies-de-chocolate-branco.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "15 min [CONFERIR]",
+    "rendimento": "12 porções (1 cookie)",
+    "porcoes": 12,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "0,4 g de flor",
+      "120 g de manteiga sem sal",
+      "150 g de farinha de trigo",
+      "80 g de açúcar mascavo",
+      "1 ovo",
+      "100 g de chocolate branco picado",
+      "4 g de fermento químico"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Bata a manteiga infusionada com o açúcar por 3 min e incorpore o ovo.",
+      "Misture a farinha e o fermento por 2 min; acrescente o chocolate e misture por 1 min.",
+      "Divida em 12 montinhos e asse por 15 min a 180 °C [CONFERIR]; esfrie por 20 min."
+    ],
+    "dicaSabor": "Junte raspas de limão à massa.",
+    "armazenamento": "Guarde em pote fechado após esfriar; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-19-cookies-de-chocolate-branco.pdf",
+    "promptImagem": "Fotografia de Cookies de Chocolate Branco, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 20,
+    "id": "r20",
+    "slug": "brigadeiro-classico",
+    "nome": "Brigadeiro Clássico",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-20-brigadeiro-classico.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "395 g de leite condensado",
+      "20 g de cacau em pó",
+      "20 g de manteiga sem sal",
+      "30 g de chocolate granulado"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Misture o leite condensado, o cacau e a manteiga infusionada por 2 min.",
+      "Mexa em fogo baixo por 10 min [CONFERIR], até a massa soltar do fundo.",
+      "Esfrie por 30 min [CONFERIR], divida em 12 docinhos e passe no granulado por 5 min."
+    ],
+    "dicaSabor": "Use cacau peneirado para sabor uniforme.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-20-brigadeiro-classico.pdf",
+    "promptImagem": "Fotografia de Brigadeiro Clássico, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 21,
+    "id": "r21",
+    "slug": "beijinho",
+    "nome": "Beijinho",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-21-beijinho.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "395 g de leite condensado",
+      "60 g de coco ralado sem açúcar",
+      "20 g de manteiga sem sal",
+      "30 g de coco ralado para envolver"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Misture o leite condensado, os 60 g de coco e a manteiga infusionada por 2 min.",
+      "Mexa em fogo baixo por 10 min [CONFERIR], até soltar do fundo.",
+      "Esfrie por 30 min [CONFERIR], divida em 12 docinhos e envolva no coco por 5 min."
+    ],
+    "dicaSabor": "Adicione raspas de limão ao coco.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-21-beijinho.pdf",
+    "promptImagem": "Fotografia de Beijinho, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 22,
+    "id": "r22",
+    "slug": "trufa-de-chocolate",
+    "nome": "Trufa de Chocolate",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-22-trufa-de-chocolate.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "banho-maria",
+    "ingredientes": [
+      "0,4 g de flor",
+      "200 g de chocolate meio amargo",
+      "100 g de creme de leite",
+      "20 g de manteiga sem sal",
+      "20 g de cacau em pó"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Derreta o chocolate em banho-maria por 5 min [CONFERIR], mexendo.",
+      "Misture o creme de leite e a manteiga infusionada por 3 min, até a massa ficar uniforme.",
+      "Leve à geladeira por 60 min [CONFERIR], divida em 12 docinhos e envolva no cacau por 5 min."
+    ],
+    "dicaSabor": "Experimente uma pitada de canela no cacau.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-22-trufa-de-chocolate.pdf",
+    "promptImagem": "Fotografia de Trufa de Chocolate, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 23,
+    "id": "r23",
+    "slug": "pacoca-ativada",
+    "nome": "Paçoca Ativada",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-23-pacoca-ativada.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "0,4 g de flor",
+      "200 g de amendoim torrado sem pele",
+      "60 g de açúcar",
+      "30 g de farinha de mandioca torrada",
+      "20 g de óleo de coco"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o óleo de coco indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Processe o amendoim, o açúcar e a farinha por 2 min, até formar uma farofa.",
+      "Acrescente o óleo infusionado e misture por 3 min para distribuir bem.",
+      "Divida a massa em 12 docinhos, pressione em formas pequenas e desenforme após 10 min."
+    ],
+    "dicaSabor": "Use uma pitada de sal para destacar o amendoim.",
+    "armazenamento": "Guarde em pote fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-23-pacoca-ativada.pdf",
+    "promptImagem": "Fotografia de Paçoca Ativada, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 24,
+    "id": "r24",
+    "slug": "cajuzinho",
+    "nome": "Cajuzinho",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-24-cajuzinho.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "395 g de leite condensado",
+      "100 g de amendoim torrado moído",
+      "10 g de cacau em pó",
+      "20 g de manteiga sem sal",
+      "12 unidades de amendoim torrado"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Misture o leite condensado, o amendoim moído, o cacau e a manteiga infusionada por 2 min.",
+      "Mexa em fogo baixo por 10 min [CONFERIR], até soltar do fundo.",
+      "Esfrie por 30 min [CONFERIR], divida em 12 docinhos e decore com os amendoins por 5 min."
+    ],
+    "dicaSabor": "Uma pitada de sal valoriza o amendoim.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-24-cajuzinho.pdf",
+    "promptImagem": "Fotografia de Cajuzinho, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 25,
+    "id": "r25",
+    "slug": "brigadeiro-de-cafe",
+    "nome": "Brigadeiro de Café",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-25-brigadeiro-de-cafe.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "395 g de leite condensado",
+      "15 g de cacau em pó",
+      "2 g de café solúvel",
+      "20 g de manteiga sem sal",
+      "30 g de chocolate granulado"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Misture o leite condensado, o cacau, o café e a manteiga infusionada por 2 min.",
+      "Mexa em fogo baixo por 10 min [CONFERIR], até soltar do fundo.",
+      "Esfrie por 30 min [CONFERIR], divida em 12 docinhos e passe no granulado por 5 min."
+    ],
+    "dicaSabor": "Ajuste o café solúvel ao seu paladar.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-25-brigadeiro-de-cafe.pdf",
+    "promptImagem": "Fotografia de Brigadeiro de Café, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 26,
+    "id": "r26",
+    "slug": "bombom-de-cereja",
+    "nome": "Bombom de Cereja",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-26-bombom-de-cereja.webp",
+    "tempoPreparo": "25 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "banho-maria",
+    "ingredientes": [
+      "0,4 g de flor",
+      "240 g de chocolate meio amargo",
+      "12 cerejas em calda escorridas",
+      "100 g de creme de leite",
+      "20 g de manteiga sem sal"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Derreta 120 g de chocolate em banho-maria por 5 min [CONFERIR] e misture o creme e a manteiga infusionada por 3 min.",
+      "Misture por mais 2 min, divida o recheio em 12 partes e envolva uma cereja em cada parte.",
+      "Derreta os outros 120 g de chocolate por 5 min [CONFERIR], cubra cada bombom e gele por 30 min [CONFERIR]."
+    ],
+    "dicaSabor": "Escorra e seque as cerejas antes de rechear.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-26-bombom-de-cereja.pdf",
+    "promptImagem": "Fotografia de Bombom de Cereja, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 27,
+    "id": "r27",
+    "slug": "doce-de-leite-ativado",
+    "nome": "Doce de Leite Ativado",
+    "categoria": "Docinhos",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-27-doce-de-leite-ativado.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "12 porções (1 docinho)",
+    "porcoes": 12,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "400 g de doce de leite firme",
+      "20 g de manteiga sem sal",
+      "40 g de leite em pó"
+    ],
+    "passos": [
+      "Espalhe 0,4 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Aqueça o doce de leite com a manteiga infusionada em fogo baixo por 5 min [CONFERIR], mexendo bem.",
+      "Acrescente o leite em pó e misture por 3 min, até a massa ficar uniforme.",
+      "Esfrie por 30 min [CONFERIR] e divida em 12 docinhos com uma colher."
+    ],
+    "dicaSabor": "Polvilhe um pouco de canela antes de servir.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 12 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-27-doce-de-leite-ativado.pdf",
+    "promptImagem": "Fotografia de Doce de Leite Ativado, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 28,
+    "id": "r28",
+    "slug": "panquecas-de-domingo",
+    "nome": "Panquecas de Domingo",
+    "categoria": "Café da manhã",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-28-panquecas-de-domingo.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "6 porções (1 panqueca)",
+    "porcoes": 6,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,2 g de flor",
+      "150 g de farinha de trigo",
+      "240 ml de leite",
+      "1 ovo",
+      "20 g de manteiga sem sal",
+      "8 g de fermento químico"
+    ],
+    "passos": [
+      "Espalhe 0,2 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Bata o ovo, o leite e a manteiga infusionada por 2 min; misture a farinha e o fermento por 2 min.",
+      "Divida a massa em 6 partes iguais e cozinhe cada panqueca em frigideira por 2 min de cada lado [CONFERIR]."
+    ],
+    "dicaSabor": "Sirva com frutas frescas.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.2,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 25.3,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,2 g × 1000 = 200,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 36,1 mg; × eficiência 0,70 [CONFERIR] = 25,3 mg; ÷ 6 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-28-panquecas-de-domingo.pdf",
+    "promptImagem": "Fotografia de Panquecas de Domingo, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 29,
+    "id": "r29",
+    "slug": "waffles-de-baunilha",
+    "nome": "Waffles de Baunilha",
+    "categoria": "Café da manhã",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-29-waffles-de-baunilha.webp",
+    "tempoPreparo": "20 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "6 porções (1 waffle)",
+    "porcoes": 6,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,2 g de flor",
+      "150 g de farinha de trigo",
+      "200 ml de leite",
+      "1 ovo",
+      "20 g de manteiga sem sal",
+      "5 ml de extrato de baunilha",
+      "8 g de fermento químico"
+    ],
+    "passos": [
+      "Espalhe 0,2 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Misture o leite, o ovo, a baunilha e a manteiga infusionada por 2 min; junte a farinha e o fermento e misture por 2 min.",
+      "Divida em 6 partes iguais e cozinhe na máquina de waffle por 4 min cada [CONFERIR], seguindo o fabricante."
+    ],
+    "dicaSabor": "Sirva com morangos cortados.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.2,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 25.3,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,2 g × 1000 = 200,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 36,1 mg; × eficiência 0,70 [CONFERIR] = 25,3 mg; ÷ 6 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-29-waffles-de-baunilha.pdf",
+    "promptImagem": "Fotografia de Waffles de Baunilha, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 30,
+    "id": "r30",
+    "slug": "granola-crocante",
+    "nome": "Granola Crocante",
+    "categoria": "Café da manhã",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-30-granola-crocante.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "20 min [CONFERIR]",
+    "rendimento": "6 porções (1 porção de granola de 40 g)",
+    "porcoes": 6,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "0,2 g de flor",
+      "160 g de aveia em flocos",
+      "40 g de castanhas picadas",
+      "20 g de mel",
+      "20 g de óleo de coco"
+    ],
+    "passos": [
+      "Espalhe 0,2 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o óleo de coco indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Misture a aveia, as castanhas, o mel e o óleo infusionado por 3 min.",
+      "Espalhe em assadeira e asse a 160 °C por 20 min [CONFERIR], mexendo após 10 min.",
+      "Esfrie por 20 min e divida em 6 porções de 40 g."
+    ],
+    "dicaSabor": "Acrescente canela à mistura antes de assar.",
+    "armazenamento": "Guarde em pote fechado depois de esfriar; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.2,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 25.3,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,2 g × 1000 = 200,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 36,1 mg; × eficiência 0,70 [CONFERIR] = 25,3 mg; ÷ 6 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-30-granola-crocante.pdf",
+    "promptImagem": "Fotografia de Granola Crocante, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 31,
+    "id": "r31",
+    "slug": "pao-de-banana",
+    "nome": "Pão de Banana",
+    "categoria": "Café da manhã",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-31-pao-de-banana.webp",
+    "tempoPreparo": "15 min",
+    "tempoForno": "35 min [CONFERIR]",
+    "rendimento": "6 porções (1 fatia de pão)",
+    "porcoes": 6,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "0,2 g de flor",
+      "2 bananas médias amassadas",
+      "150 g de farinha de trigo",
+      "1 ovo",
+      "40 g de açúcar mascavo",
+      "20 g de manteiga sem sal",
+      "8 g de fermento químico"
+    ],
+    "passos": [
+      "Espalhe 0,2 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Misture as bananas, o ovo, o açúcar e a manteiga infusionada por 2 min.",
+      "Junte a farinha e o fermento e misture por 2 min; coloque em forma pequena.",
+      "Asse a 180 °C por 35 min [CONFERIR], esfrie por 20 min e corte em 6 fatias iguais."
+    ],
+    "dicaSabor": "Adicione uma pitada de canela à massa.",
+    "armazenamento": "Guarde em recipiente fechado na geladeira; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.2,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 25.3,
+      "mgPorPorcao": 4.2,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,2 g × 1000 = 200,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 36,1 mg; × eficiência 0,70 [CONFERIR] = 25,3 mg; ÷ 6 porções = 4,2 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-31-pao-de-banana.pdf",
+    "promptImagem": "Fotografia de Pão de Banana, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 32,
+    "id": "r32",
+    "slug": "ovos-mexidos-na-manteiga-ativada",
+    "nome": "Ovos Mexidos na Manteiga Ativada",
+    "categoria": "Café da manhã",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-32-ovos-mexidos-na-manteiga-ativada.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "2 porções (1 porção)",
+    "porcoes": 2,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,07 g de flor",
+      "4 ovos",
+      "20 g de manteiga sem sal",
+      "1 g de sal",
+      "1 g de pimenta-do-reino"
+    ],
+    "passos": [
+      "Espalhe 0,07 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Bata os ovos com sal e pimenta por 1 min.",
+      "Aqueça a manteiga infusionada na frigideira e mexa com os ovos por 4 min [CONFERIR], até cozinhar.",
+      "Misture por 1 min e divida em 2 porções iguais."
+    ],
+    "dicaSabor": "Finalize com cebolinha picada.",
+    "armazenamento": "Refrigere em recipiente fechado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.07,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 8.8,
+      "mgPorPorcao": 4.4,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,07 g × 1000 = 70,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 12,6 mg; × eficiência 0,70 [CONFERIR] = 8,8 mg; ÷ 2 porções = 4,4 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-32-ovos-mexidos-na-manteiga-ativada.pdf",
+    "promptImagem": "Fotografia de Ovos Mexidos na Manteiga Ativada, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 33,
+    "id": "r33",
+    "slug": "crepioca-ativada",
+    "nome": "Crepioca Ativada",
+    "categoria": "Café da manhã",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-33-crepioca-ativada.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "2 porções (1 crepioca)",
+    "porcoes": 2,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,07 g de flor",
+      "2 ovos",
+      "60 g de goma de tapioca",
+      "20 g de manteiga sem sal",
+      "1 g de sal"
+    ],
+    "passos": [
+      "Espalhe 0,07 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com todo o manteiga indicado e infunda por 2 a 4 h abaixo de 93 °C [CONFERIR]; teste com termômetro e coe sem espremer.",
+      "Bata os ovos com a tapioca, o sal e a manteiga infusionada derretida por 2 min.",
+      "Divida em 2 partes iguais e cozinhe cada crepioca em frigideira por 2 min de cada lado [CONFERIR]."
+    ],
+    "dicaSabor": "Adicione ervas secas à massa.",
+    "armazenamento": "Refrigere em recipiente fechado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.07,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 8.8,
+      "mgPorPorcao": 4.4,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,07 g × 1000 = 70,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 12,6 mg; × eficiência 0,70 [CONFERIR] = 8,8 mg; ÷ 2 porções = 4,4 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-33-crepioca-ativada.pdf",
+    "promptImagem": "Fotografia de Crepioca Ativada, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 34,
+    "id": "r34",
+    "slug": "chocolate-quente",
+    "nome": "Chocolate Quente",
+    "categoria": "Bebidas",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-34-chocolate-quente.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "2 porções (1 xícara de 250 ml)",
+    "porcoes": 2,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,07 g de flor",
+      "460 ml de leite",
+      "20 g de cacau em pó",
+      "20 g de açúcar",
+      "20 g de manteiga sem sal"
+    ],
+    "passos": [
+      "Espalhe 0,07 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com toda a manteiga indicada; tempo e temperatura [CONFERIR], teste com termômetro, e coe sem espremer.",
+      "Aqueça o leite com o cacau e o açúcar por 5 min [CONFERIR], mexendo.",
+      "Acrescente a manteiga infusionada e bata por 2 min; complete com leite até 500 ml e misture por 1 min.",
+      "Distribua imediatamente em 2 xícaras de 250 ml, mexendo antes de cada medida por 1 min."
+    ],
+    "dicaSabor": "Uma pitada de canela combina com o cacau.",
+    "armazenamento": "Refrigere em recipiente fechado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.07,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 8.8,
+      "mgPorPorcao": 4.4,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,07 g × 1000 = 70,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 12,6 mg; × eficiência 0,70 [CONFERIR] = 8,8 mg; ÷ 2 porções = 4,4 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-34-chocolate-quente.pdf",
+    "promptImagem": "Fotografia de Chocolate Quente, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 35,
+    "id": "r35",
+    "slug": "shake-de-baunilha",
+    "nome": "Shake de Baunilha",
+    "categoria": "Bebidas",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-35-shake-de-baunilha.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "2 porções (1 copo de 250 ml)",
+    "porcoes": 2,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "0,07 g de flor",
+      "400 ml de leite gelado",
+      "80 g de iogurte natural",
+      "5 ml de extrato de baunilha",
+      "20 g de manteiga sem sal",
+      "10 g de açúcar"
+    ],
+    "passos": [
+      "Espalhe 0,07 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com toda a manteiga indicada; tempo e temperatura [CONFERIR], teste com termômetro, e coe sem espremer.",
+      "Bata o leite, o iogurte, a baunilha, o açúcar e a manteiga infusionada derretida por 2 min.",
+      "Complete com leite até 500 ml, bata por 1 min e divida imediatamente em 2 copos de 250 ml."
+    ],
+    "dicaSabor": "Use baunilha a gosto.",
+    "armazenamento": "Refrigere em recipiente fechado; prazo [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.07,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 8.8,
+      "mgPorPorcao": 4.4,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,07 g × 1000 = 70,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 12,6 mg; × eficiência 0,70 [CONFERIR] = 8,8 mg; ÷ 2 porções = 4,4 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-35-shake-de-baunilha.pdf",
+    "promptImagem": "Fotografia de Shake de Baunilha, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 36,
+    "id": "r36",
+    "slug": "leite-de-canhamo-ativado",
+    "nome": "Leite de Cânhamo Ativado",
+    "categoria": "Bebidas",
+    "subtitulo": "Bebida de sementes descascadas batidas com água",
+    "imagem": "img/receitas/receita-36-leite-de-canhamo-ativado.webp",
+    "tempoPreparo": "20 min, além da ativação e do aquecimento",
+    "tempoForno": "30 a 40 min para a ativação",
+    "rendimento": "5 porções (1 copo de 250 ml)",
+    "porcoes": 5,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,2 g de flor seca",
+      "100 g de sementes de cânhamo descascadas",
+      "1,25 litro de água",
+      "1 colher de chá de extrato de baunilha"
+    ],
+    "passos": [
+      "Aqueça o forno a 105 a 115 °C e espalhe os 0,2 g de flor em uma assadeira; deixe por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Bata as sementes descascadas com a água e a baunilha por 2 min [CONFERIR], até a mistura ficar uniforme.",
+      "Transfira para uma panela, acrescente toda a flor ativada e aqueça em fogo baixo por 20 min [CONFERIR], mexendo com frequência; confira a temperatura com termômetro [CONFERIR].",
+      "Em 5 min, misture novamente e complete com água potável, se necessário, até obter 1,25 litro; mexa antes de distribuir em 5 copos de 250 ml, incluindo os sólidos [CONFERIR]."
+    ],
+    "dicaSabor": "A baunilha combina com uma pitada de canela.",
+    "armazenamento": "Guarde em recipiente fechado e rotulado na geladeira; prazo de conservação [CONFERIR].",
+    "dicaSeguranca": "Misture antes de servir e rotule cada copo com a dose estimada, pois a distribuição pode variar.",
+    "dose": {
+      "gramasFlor": 0.2,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 25.3,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,2 g × 1000 = 200 mg; × (20 × 0,877 + 0,5) ÷ 100 = 36,1 mg; × eficiência 0,70 [CONFERIR] = 25,3 mg; ÷ 5 porções = 5,1 mg por porção. Valores arredondados; estimativa, não é laudo."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-36-leite-de-canhamo-ativado.pdf",
+    "promptImagem": "Fotografia de bebida de sementes de cânhamo em copo de vidro, sementes descascadas ao lado, luz natural em cozinha, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 37,
+    "id": "r37",
+    "slug": "milkshake-de-chocolate",
+    "nome": "Milkshake de Chocolate",
+    "categoria": "Bebidas",
+    "subtitulo": "Preparo porcionado para compartilhar",
+    "imagem": "img/receitas/receita-37-milkshake-de-chocolate.webp",
+    "tempoPreparo": "10 min",
+    "tempoForno": "não usa forno",
+    "rendimento": "2 porções (1 copo de 250 ml)",
+    "porcoes": 2,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "0,07 g de flor",
+      "300 ml de leite gelado",
+      "150 g de sorvete de chocolate",
+      "10 g de cacau em pó",
+      "20 g de manteiga sem sal"
+    ],
+    "passos": [
+      "Espalhe 0,07 g de flor em pedaços e aqueça no forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, misture a flor ativada com toda a manteiga indicada; tempo e temperatura [CONFERIR], teste com termômetro, e coe sem espremer.",
+      "Bata o leite, o sorvete, o cacau e a manteiga infusionada derretida por 2 min.",
+      "Complete com leite até 500 ml, bata por 1 min e divida imediatamente em 2 copos de 250 ml."
+    ],
+    "dicaSabor": "Use cacau peneirado para incorporar melhor.",
+    "armazenamento": "Consuma após preparar; prazo de armazenamento [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe porções iguais e rotule; a dose caseira pode variar entre porções.",
+    "dose": {
+      "gramasFlor": 0.07,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 8.8,
+      "mgPorPorcao": 4.4,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,07 g × 1000 = 70,0 mg; × (20 × 0,877 + 0,5) ÷ 100 = 12,6 mg; × eficiência 0,70 [CONFERIR] = 8,8 mg; ÷ 2 porções = 4,4 mg por porção."
+    },
+    "perfil": {
+      "intensidade": "leve",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-37-milkshake-de-chocolate.pdf",
+    "promptImagem": "Fotografia de Milkshake de Chocolate, apresentação apetitosa em cozinha, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 38,
+    "id": "r38",
+    "slug": "cha-gelado-de-pessego",
+    "nome": "Chá Gelado de Pêssego",
+    "categoria": "Bebidas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-38-cha-gelado-de-pessego.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 copos de 200 ml",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "1,5 litro de chá preto preparado",
+      "500 ml de suco de pêssego",
+      "2 colheres de sopa de mel",
+      "2 colheres de sopa de óleo de coco",
+      "2 pêssegos em fatias"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Misture o chá, o suco e o mel por 2 min.",
+      "Adicione todo o óleo preparado e bata por 2 min; mexa novamente antes de servir em 10 copos iguais.",
+      "Acrescente as fatias e gele por 2 h [CONFERIR]."
+    ],
+    "dicaSabor": "Sirva com pêssego fresco.",
+    "armazenamento": "Mantenha refrigerado em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-38-cha-gelado-de-pessego.pdf",
+    "promptImagem": "Foto de Chá Gelado de Pêssego, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 39,
+    "id": "r39",
+    "slug": "molho-cremoso-de-queijo",
+    "nome": "Molho Cremoso de Queijo",
+    "categoria": "Salgados",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-39-molho-cremoso-de-queijo.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 porções de 2 colheres de sopa (30 ml)",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de manteiga",
+      "150 ml de leite",
+      "100 g de queijo ralado",
+      "1 colher de sopa de farinha de trigo",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Derreta toda a manteiga preparada em fogo baixo por 1 min.",
+      "Junte a farinha e mexa por 1 min; acrescente o leite aos poucos e mexa por 4 min [CONFERIR].",
+      "Adicione o queijo, misture por 2 min e divida o rendimento final de 300 ml em 10 porções de 30 ml."
+    ],
+    "dicaSabor": "Use queijo de sabor suave.",
+    "armazenamento": "Refrigere em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-39-molho-cremoso-de-queijo.pdf",
+    "promptImagem": "Foto de Molho Cremoso de Queijo, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 40,
+    "id": "r40",
+    "slug": "pao-de-alho",
+    "nome": "Pão de Alho",
+    "categoria": "Salgados",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-40-pao-de-alho.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "10 min [CONFERIR]",
+    "rendimento": "10 porções (1 pedaço)",
+    "porcoes": 10,
+    "eletrodomestico": "forno",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de manteiga",
+      "2 pães grandes cortados em 5 pedaços cada",
+      "2 dentes de alho amassados",
+      "2 colheres de sopa de salsinha picada",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Misture toda a manteiga preparada com alho, salsinha e sal por 2 min.",
+      "Espalhe a mistura igualmente nos 10 pedaços de pão por 3 min.",
+      "Asse por 10 min [CONFERIR], até dourar, e sirva 1 pedaço por porção."
+    ],
+    "dicaSabor": "Acrescente raspas de limão à pasta.",
+    "armazenamento": "Guarde refrigerado em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-40-pao-de-alho.pdf",
+    "promptImagem": "Foto de Pão de Alho, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 41,
+    "id": "r41",
+    "slug": "mac-and-cheese",
+    "nome": "Mac and Cheese",
+    "categoria": "Salgados",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-41-mac-and-cheese.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "15 min [CONFERIR]",
+    "rendimento": "10 pratos de 200 g",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de manteiga",
+      "700 g de macarrão seco",
+      "700 ml de leite",
+      "400 g de queijo ralado",
+      "2 colheres de sopa de farinha de trigo",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Cozinhe o macarrão em água conforme a embalagem e escorra.",
+      "Derreta toda a manteiga preparada, misture a farinha por 1 min e junte o leite; mexa por 5 min [CONFERIR].",
+      "Junte o queijo e o macarrão e misture por 3 min; leve ao forno por 15 min [CONFERIR].",
+      "Pese o prato pronto, ajuste o rendimento a 2 kg com leite se necessário e divida em 10 pratos de 200 g."
+    ],
+    "dicaSabor": "Finalize com queijo de sabor marcante.",
+    "armazenamento": "Refrigere em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-41-mac-and-cheese.pdf",
+    "promptImagem": "Foto de Mac and Cheese, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 42,
+    "id": "r42",
+    "slug": "pizza-de-frigideira",
+    "nome": "Pizza de Frigideira",
+    "categoria": "Salgados",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-42-pizza-de-frigideira.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 porções (1 fatia)",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de azeite",
+      "2 discos pequenos de massa de pizza",
+      "200 g de molho de tomate",
+      "200 g de muçarela ralada",
+      "1 colher de chá de orégano"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Misture todo o azeite preparado ao molho por 2 min.",
+      "Divida molho e queijo igualmente entre os 2 discos por 3 min.",
+      "Cozinhe cada pizza em frigideira tampada por 8 min [CONFERIR] e corte cada uma em 5 fatias iguais."
+    ],
+    "dicaSabor": "Finalize com orégano.",
+    "armazenamento": "Refrigere em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-42-pizza-de-frigideira.pdf",
+    "promptImagem": "Foto de Pizza de Frigideira, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 43,
+    "id": "r43",
+    "slug": "pipoca-na-manteiga-ativada",
+    "nome": "Pipoca na Manteiga Ativada",
+    "categoria": "Salgados",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-43-pipoca-na-manteiga-ativada.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 porções (1 xícara de 30 g)",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de manteiga",
+      "300 g de milho para pipoca",
+      "1 colher de sopa de óleo comum",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Estoure o milho no óleo comum em panela tampada por 6 min [CONFERIR].",
+      "Derreta toda a manteiga preparada por 1 min e misture à pipoca em tigela grande por 3 min.",
+      "Pese 10 porções de 30 g; o volume de 1 xícara por porção é aproximado [CONFERIR]."
+    ],
+    "dicaSabor": "Use páprica para variar o sabor.",
+    "armazenamento": "Guarde em recipiente fechado após esfriar [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-43-pipoca-na-manteiga-ativada.pdf",
+    "promptImagem": "Foto de Pipoca na Manteiga Ativada, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 44,
+    "id": "r44",
+    "slug": "hempesto-pesto-de-canhamo",
+    "nome": "Hempesto (Pesto de Cânhamo Ativado)",
+    "categoria": "Salgados",
+    "subtitulo": "Pesto de manjericão com castanha e queijo",
+    "imagem": "img/receitas/receita-44-hempesto-pesto-de-canhamo.webp",
+    "tempoPreparo": "15 min, mais o tempo de ativação e infusão",
+    "tempoForno": "30 a 40 min para a ativação",
+    "rendimento": "10 porções (2 colheres de sopa, 30 g)",
+    "porcoes": 10,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "0,4 g de flor seca",
+      "100 ml de azeite para a infusão",
+      "60 g de folhas de manjericão",
+      "60 g de castanha-de-caju",
+      "40 g de queijo parmesão ralado",
+      "1 dente de alho",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Aqueça o forno a 105 a 115 °C e espalhe os 0,4 g de flor em uma assadeira; deixe por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, mantenha a flor ativada com os 100 ml de azeite abaixo de 93 °C por 2 a 4 h; teste com termômetro e coe sem espremer [CONFERIR]. Deixe esfriar por 20 min [CONFERIR] e use todo o azeite recuperado.",
+      "Em 5 min, processe o manjericão, a castanha, o queijo, o alho, o sal e todo o azeite infusionado até formar um molho uniforme.",
+      "Em 5 min, pese o pesto e ajuste a receita com ingredientes sem infusão até obter 300 g [CONFERIR]; misture bem e divida em 10 porções de 30 g, aproximadamente 2 colheres de sopa cada."
+    ],
+    "dicaSabor": "Sirva sobre massa ou pão e acrescente raspas de limão ao molho.",
+    "armazenamento": "Guarde em recipiente fechado e rotulado na geladeira; prazo de conservação [CONFERIR].",
+    "dicaSeguranca": "Misture bem e pese as 10 porções, rotulando cada uma com a dose estimada.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção. Valores arredondados; estimativa, não é laudo."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "refeição em casa"
+    },
+    "pdf": "../pdf/receita-44-hempesto-pesto-de-canhamo.pdf",
+    "promptImagem": "Fotografia de pesto de manjericão com castanha e queijo ralado em tigela pequena, acompanhado de pão, luz natural em cozinha, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 45,
+    "id": "r45",
+    "slug": "sorvete-de-baunilha",
+    "nome": "Sorvete de Baunilha",
+    "categoria": "Sobremesas geladas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-45-sorvete-de-baunilha.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 porções de 100 g",
+    "porcoes": 10,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "500 g de creme de leite",
+      "350 g de leite condensado",
+      "100 ml de leite",
+      "1 colher de chá de baunilha"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Bata o creme, o leite condensado, o leite e a baunilha por 3 min.",
+      "Incorpore todo o óleo preparado ainda líquido e bata por 2 min; transfira ao recipiente.",
+      "Congele por 6 h [CONFERIR], misturando durante o congelamento; divida em 10 porções iguais."
+    ],
+    "dicaSabor": "Sirva com raspas de chocolate.",
+    "armazenamento": "Mantenha no congelador em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-45-sorvete-de-baunilha.pdf",
+    "promptImagem": "Foto de Sorvete de Baunilha, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 46,
+    "id": "r46",
+    "slug": "pudim-de-leite-condensado",
+    "nome": "Pudim de Leite Condensado",
+    "categoria": "Sobremesas geladas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-46-pudim-de-leite-condensado.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 fatias iguais",
+    "porcoes": 10,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "395 g de leite condensado",
+      "400 ml de leite",
+      "12 g de gelatina sem sabor",
+      "5 colheres de sopa de água",
+      "2 colheres de sopa de açúcar"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Hidrate a gelatina na água por 5 min e dissolva conforme a embalagem.",
+      "Bata leite condensado, leite, gelatina e todo o óleo preparado por 3 min.",
+      "Despeje em forma, gele por 4 h [CONFERIR] e corte em 10 fatias iguais; sirva com o açúcar polvilhado."
+    ],
+    "dicaSabor": "Use baunilha para perfumar.",
+    "armazenamento": "Mantenha refrigerado e coberto [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-46-pudim-de-leite-condensado.pdf",
+    "promptImagem": "Foto de Pudim de Leite Condensado, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 47,
+    "id": "r47",
+    "slug": "mousse-de-chocolate",
+    "nome": "Mousse de Chocolate",
+    "categoria": "Sobremesas geladas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-47-mousse-de-chocolate.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 porções iguais",
+    "porcoes": 10,
+    "eletrodomestico": "banho-maria",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de manteiga",
+      "300 g de chocolate meio amargo",
+      "400 g de creme de leite",
+      "2 colheres de sopa de açúcar"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Derreta o chocolate com toda a manteiga preparada em banho-maria por 5 min [CONFERIR].",
+      "Misture creme de leite e açúcar por 3 min, até uniforme.",
+      "Divida em 10 potes e gele por 2 h [CONFERIR]."
+    ],
+    "dicaSabor": "Finalize com raspas de chocolate.",
+    "armazenamento": "Mantenha refrigerado em potes fechados [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-47-mousse-de-chocolate.pdf",
+    "promptImagem": "Foto de Mousse de Chocolate, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 48,
+    "id": "r48",
+    "slug": "picole-de-maracuja",
+    "nome": "Picolé de Maracujá",
+    "categoria": "Sobremesas geladas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-48-picole-de-maracuja.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 porções (1 picolé)",
+    "porcoes": 10,
+    "eletrodomestico": "sem cozimento",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "400 ml de polpa de maracujá",
+      "400 ml de iogurte natural",
+      "3 colheres de sopa de açúcar"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Bata polpa, iogurte, açúcar e todo o óleo preparado por 3 min.",
+      "Distribua imediatamente em 10 moldes iguais por 3 min, mexendo a mistura entre os moldes.",
+      "Insira os palitos e congele por 6 h [CONFERIR]."
+    ],
+    "dicaSabor": "Coe as sementes se preferir textura lisa.",
+    "armazenamento": "Mantenha congelado em embalagem fechada [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-48-picole-de-maracuja.pdf",
+    "promptImagem": "Foto de Picolé de Maracujá, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 49,
+    "id": "r49",
+    "slug": "gomas-de-frutas-com-lecitina",
+    "nome": "Gomas de Frutas com Lecitina",
+    "categoria": "Gomas e balas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-49-gomas-de-frutas-com-lecitina.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 gomas de 10 g cada",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "50 ml de suco de fruta",
+      "20 g de gelatina sem sabor",
+      "2 g de lecitina",
+      "15 g de açúcar"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Hidrate a gelatina no suco por 5 min.",
+      "Aqueça em fogo baixo por 3 min [CONFERIR], acrescente açúcar, lecitina e todo o óleo preparado e mexa por 3 min.",
+      "Pese 100 g da mistura e distribua em 10 moldes de 10 g, mexendo entre os preenchimentos; gele por 2 h [CONFERIR].",
+      "A lecitina ajuda a emulsificar o óleo; a dose estimada vem do pacote inteiro dividido pelas 10 gomas, sem garantir distribuição uniforme."
+    ],
+    "dicaSabor": "Use suco de fruta de sabor intenso.",
+    "armazenamento": "Mantenha refrigerado em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-49-gomas-de-frutas-com-lecitina.pdf",
+    "promptImagem": "Foto de Gomas de Frutas com Lecitina, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 50,
+    "id": "r50",
+    "slug": "balas-de-limao",
+    "nome": "Balas de Limão",
+    "categoria": "Gomas e balas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-50-balas-de-limao.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 balas iguais",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "100 g de açúcar",
+      "30 ml de suco de limão",
+      "2 colheres de sopa de água"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Aqueça açúcar, água e limão em fogo baixo por 5 min [CONFERIR], acompanhando com termômetro de calda até o ponto de bala [CONFERIR].",
+      "Retire do fogo, misture todo o óleo preparado por 2 min e distribua em 10 moldes iguais.",
+      "Deixe firmar por 1 h [CONFERIR] antes de desenformar."
+    ],
+    "dicaSabor": "Use raspas de limão na mistura.",
+    "armazenamento": "Guarde em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-50-balas-de-limao.pdf",
+    "promptImagem": "Foto de Balas de Limão, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 51,
+    "id": "r51",
+    "slug": "caramelo-salgado",
+    "nome": "Caramelo Salgado",
+    "categoria": "Gomas e balas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-51-caramelo-salgado.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 caramelos iguais",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de manteiga",
+      "100 g de açúcar",
+      "80 g de creme de leite",
+      "1 pitada de sal"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Aqueça o açúcar em panela por 5 min [CONFERIR], acompanhando com termômetro de calda até o ponto de bala [CONFERIR].",
+      "Fora do fogo, incorpore o creme com cuidado e toda a manteiga preparada, mexendo por 2 min; junte o sal.",
+      "Divida em 10 moldes iguais e deixe firmar por 1 h [CONFERIR]."
+    ],
+    "dicaSabor": "Finalize com poucos grãos de sal.",
+    "armazenamento": "Guarde em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-51-caramelo-salgado.pdf",
+    "promptImagem": "Foto de Caramelo Salgado, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 52,
+    "id": "r52",
+    "slug": "balas-de-coco",
+    "nome": "Balas de Coco",
+    "categoria": "Gomas e balas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-52-balas-de-coco.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 balas iguais",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "100 g de açúcar",
+      "60 ml de leite de coco",
+      "30 g de coco ralado"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Aqueça açúcar e leite de coco por 5 min [CONFERIR], usando termômetro de calda para verificar o ponto de bala [CONFERIR].",
+      "Misture o coco ralado e todo o óleo preparado por 2 min.",
+      "Distribua em 10 moldes iguais e deixe firmar por 1 h [CONFERIR]."
+    ],
+    "dicaSabor": "Use coco ralado fino.",
+    "armazenamento": "Guarde em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-52-balas-de-coco.pdf",
+    "promptImagem": "Foto de Balas de Coco, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 53,
+    "id": "r53",
+    "slug": "gomas-de-morango-com-lecitina",
+    "nome": "Gomas de Morango com Lecitina",
+    "categoria": "Gomas e balas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-53-gomas-de-morango-com-lecitina.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 gomas de 10 g cada",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "50 ml de purê de morango coado",
+      "20 g de gelatina sem sabor",
+      "2 g de lecitina",
+      "15 g de açúcar"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Hidrate a gelatina no purê por 5 min.",
+      "Aqueça em fogo baixo por 3 min [CONFERIR], acrescente açúcar, lecitina e todo o óleo preparado e mexa por 3 min.",
+      "Pese 100 g da mistura e distribua em 10 moldes de 10 g, mexendo entre os preenchimentos; gele por 2 h [CONFERIR].",
+      "A lecitina ajuda a emulsificar o óleo; a dose estimada vem do pacote inteiro dividido pelas 10 gomas, sem garantir distribuição uniforme."
+    ],
+    "dicaSabor": "Use morangos maduros.",
+    "armazenamento": "Mantenha refrigerado em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-53-gomas-de-morango-com-lecitina.pdf",
+    "promptImagem": "Foto de Gomas de Morango com Lecitina, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 54,
+    "id": "r54",
+    "slug": "pirulitos-de-chocolate",
+    "nome": "Pirulitos de Chocolate",
+    "categoria": "Gomas e balas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-54-pirulitos-de-chocolate.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 porções (1 pirulito)",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de manteiga",
+      "200 g de chocolate meio amargo",
+      "10 palitos próprios para alimentos",
+      "1 colher de sopa de confeitos"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Derreta o chocolate com toda a manteiga preparada em panela de fundo grosso, em fogo baixo, por 3 min [CONFERIR], mexendo sempre.",
+      "Misture por 2 min e divida igualmente entre 10 moldes de pirulito; coloque os palitos.",
+      "Polvilhe confeitos e deixe firmar por 1 h [CONFERIR]."
+    ],
+    "dicaSabor": "Escolha chocolate de sabor intenso.",
+    "armazenamento": "Guarde em recipiente fechado e fresco [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-54-pirulitos-de-chocolate.pdf",
+    "promptImagem": "Foto de Pirulitos de Chocolate, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  },
+  {
+    "n": 55,
+    "id": "r55",
+    "slug": "marshmallow-ativado",
+    "nome": "Marshmallow Ativado",
+    "categoria": "Gomas e balas",
+    "subtitulo": "Prepare e divida em 10 porções.",
+    "imagem": "img/receitas/receita-55-marshmallow-ativado.webp",
+    "tempoPreparo": "20 min [CONFERIR], além da ativação e infusão",
+    "tempoForno": "não usa forno",
+    "rendimento": "10 unidades de 10 g",
+    "porcoes": 10,
+    "eletrodomestico": "fogão",
+    "ingredientes": [
+      "0,4 g de flor",
+      "2 colheres de sopa de óleo de coco",
+      "60 g de açúcar",
+      "10 g de gelatina sem sabor",
+      "40 ml de água",
+      "1 colher de chá de baunilha"
+    ],
+    "passos": [
+      "Descarboxile 0,4 g de flor em forno a 105 a 115 °C por 30 a 40 min: valor de referência, teste com termômetro de forno separado.",
+      "Em banho-maria, infunda toda a flor na gordura indicada com água, abaixo de 93 °C por 2 a 4 h; coe sem espremer e use toda a gordura obtida na receita. Teste com termômetro.",
+      "Hidrate a gelatina em metade da água por 5 min.",
+      "Aqueça açúcar e água restante por 5 min [CONFERIR], verificando com termômetro de calda o ponto de bala [CONFERIR].",
+      "Junte a gelatina e bata por 5 min; incorpore todo o óleo preparado e a baunilha por 2 min.",
+      "Pese 100 g da mistura, distribua em 10 moldes de 10 g e deixe firmar por 2 h [CONFERIR]."
+    ],
+    "dicaSabor": "Perfume com baunilha.",
+    "armazenamento": "Guarde em recipiente fechado [CONFERIR].",
+    "dicaSeguranca": "Misture bem, separe e rotule as 10 porções; a dose é estimada e pode variar entre elas.",
+    "dose": {
+      "gramasFlor": 0.4,
+      "thcaPct": 20,
+      "thcPct": 0.5,
+      "eficiencia": 0.7,
+      "mgTotais": 50.5,
+      "mgPorPorcao": 5.1,
+      "conta": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora). Flor: 0,4 g × 1000 = 400 mg; × (20 × 0,877 + 0,5) ÷ 100 = 72,2 mg; × eficiência 0,70 [CONFERIR] = 50,5 mg; ÷ 10 porções = 5,1 mg por porção (estimativa, não é laudo)."
+    },
+    "perfil": {
+      "intensidade": "moderada",
+      "inicio": "30 min a 2 h",
+      "duracao": "varia por pessoa",
+      "quandoCombina": "fim de semana em casa"
+    },
+    "pdf": "../pdf/receita-55-marshmallow-ativado.pdf",
+    "promptImagem": "Foto de Marshmallow Ativado, apresentado em cozinha caseira, luz natural, estilo de livro de receitas, sem texto na imagem."
+  }
+];
