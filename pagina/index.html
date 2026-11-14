@@ -136,6 +136,23 @@ h2 em,h1 em{font-style:normal;color:var(--amber2)}
 .av{width:52px;height:52px;border-radius:50%;border:2px dashed var(--amber);display:grid;place-items:center;color:var(--amber2);font-size:.62rem;font-weight:800;text-align:center;line-height:1.1}
 .stars{color:#f5a623;letter-spacing:2px}
 
+
+/* prova social: quadro estilo Instagram (MODELO) */
+.igw{display:grid;gap:16px;margin-top:28px}
+.ig{background:#fff;border:1px solid #dbdbdb;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);text-align:left;font-family:-apple-system,'SF Pro Text',Roboto,Helvetica,Arial,sans-serif;color:#262626}
+.ig .real{display:none;width:100%;height:auto}
+.ig.has .real{display:block}.ig.has .tpl{display:none}
+.ig-h{display:flex;align-items:center;gap:10px;padding:12px 14px}
+.ig-av{width:36px;height:36px;border-radius:50%;padding:2px;background:conic-gradient(#f58529,#dd2a7b,#8134af,#515bd4,#f58529);flex:none}
+.ig-av i{display:block;width:100%;height:100%;border-radius:50%;background:#e9e9e9;border:2px solid #fff}
+.ig-u{font-weight:600;font-size:.9rem;flex:1}
+.ig-d{letter-spacing:2px;font-weight:800}
+.ig-img{aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#f3f3f3 0 12px,#fafafa 12px 24px);display:grid;place-items:center;text-align:center;padding:22px;color:#8e8e8e;font-weight:700;border-block:1px solid #efefef}
+.ig-a{display:flex;gap:14px;padding:12px 14px 4px}
+.ig-a svg{width:24px;height:24px;fill:none;stroke:#262626;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ig-t{padding:4px 14px 16px;font-size:.92rem;line-height:1.4}
+.ig-t p{margin-bottom:4px}
+
 /* bônus */
 .bon{display:grid;grid-template-columns:1fr;gap:16px;margin-top:30px}
 .bcard{background:#fff;border-radius:var(--r);box-shadow:var(--shadow);padding:14px;display:grid;grid-template-columns:128px 1fr;gap:16px;align-items:center;border:1px solid rgba(16,36,26,.06)}
@@ -225,7 +242,7 @@ footer p{margin-bottom:10px;max-width:80ch}
   .ben{grid-template-columns:1fr 1fr}
   .cols2{grid-template-columns:1fr 1fr;align-items:start}
   .vit{grid-template-columns:repeat(3,1fr)}
-  .dep{grid-template-columns:repeat(3,1fr)}
+  .igw{grid-template-columns:repeat(3,1fr)}
   .bon{grid-template-columns:1fr 1fr 1fr}
   .bcard{grid-template-columns:1fr;text-align:center}
   .bcard .media{max-width:190px;margin-inline:auto;width:100%}
@@ -270,6 +287,7 @@ footer p{margin-bottom:10px;max-width:80ch}
 </defs>
 </svg>
 
+<!-- PREÇOS (MODELO): Premium R$37, Básico R$17, bônus riscados R$19/R$17/R$15, âncora R$147 e downsell R$27. Definidos pelo Lucas em 13/11/2026, exceto âncora e downsell (suposição). Trocar aqui e no checkout se mudar. -->
 <!-- 1. BARRA DE TOPO -->
 <div class="topbar">NOVA EDIÇÃO 2026 com preço de lançamento. Acaba em <span class="chip-time timer" data-timer>15:00</span></div>
 
@@ -386,14 +404,41 @@ footer p{margin-bottom:10px;max-width:80ch}
 </section>
 
 <!-- 8. DEPOIMENTOS -->
+<!-- MODELO (TEMPLATE): 3 quadros no estilo de print do Instagram. O texto aqui e apenas placeholder de [PROVA REAL AQUI].
+     Para publicar: salve prints REAIS e autorizados em assets/img/prova-1.webp, prova-2.webp e prova-3.webp (750x900).
+     Quando o arquivo existe, o print real substitui o quadro automaticamente. Nao inventar nome, comentario ou numero. -->
 <section>
   <div class="wrap center rv">
     <span class="kicker">Quem já fez</span>
     <h2>Quem fez no ponto <em>não volta pro chute</em></h2>
-    <div class="dep" style="text-align:left">
-      <div class="dcard"><div class="who"><div class="av">FOTO<br>REAL</div><div><b class="pend">[PROVA REAL AQUI]</b><br><small class="pend">[PROVA REAL AQUI]</small></div></div><div class="stars">★★★★★</div><p class="pend">[PROVA REAL AQUI]</p></div>
-      <div class="dcard"><div class="who"><div class="av">FOTO<br>REAL</div><div><b class="pend">[PROVA REAL AQUI]</b><br><small class="pend">[PROVA REAL AQUI]</small></div></div><div class="stars">★★★★★</div><p class="pend">[PROVA REAL AQUI]</p></div>
-      <div class="dcard"><div class="who"><div class="av">FOTO<br>REAL</div><div><b class="pend">[PROVA REAL AQUI]</b><br><small class="pend">[PROVA REAL AQUI]</small></div></div><div class="stars">★★★★★</div><p class="pend">[PROVA REAL AQUI]</p></div>
+    <div class="igw">
+      <!-- MODELO 1: se existir assets/img/prova-1.webp (print real), ele aparece no lugar deste quadro. -->
+      <div class="ig"><img class="real" src="assets/img/prova-1.webp" alt="Print de depoimento real de aluno" width="750" height="900" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()">
+        <div class="tpl">
+          <div class="ig-h"><div class="ig-av"><i></i></div><div class="ig-u">[PROVA REAL AQUI]</div><div class="ig-d">&middot;&middot;&middot;</div></div>
+          <div class="ig-img">[PROVA REAL AQUI]<br>print real do aluno</div>
+          <div class="ig-a"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9C1.2 8.800 3 5 6.500 5c2 0 3.500 1 5.500 3 2-2 3.500-3 5.500-3C21 5 22.800 8.800 21.300 12c-2.300 4.600-9.300 9-9.300 9z"/></svg><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.700 7L3 21l2-5.500A8 8 0 1 1 21 12z"/></svg><svg viewBox="0 0 24 24"><path d="M22 3L9 14M22 3l-7 18-4-8-8-4z"/></svg></div>
+          <div class="ig-t"><p><b>[PROVA REAL AQUI]</b> curtidas</p><p><b>@[PROVA REAL AQUI]</b> [PROVA REAL AQUI]</p></div>
+        </div>
+      </div>
+      <!-- MODELO 2: se existir assets/img/prova-2.webp (print real), ele aparece no lugar deste quadro. -->
+      <div class="ig"><img class="real" src="assets/img/prova-2.webp" alt="Print de depoimento real de aluno" width="750" height="900" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()">
+        <div class="tpl">
+          <div class="ig-h"><div class="ig-av"><i></i></div><div class="ig-u">[PROVA REAL AQUI]</div><div class="ig-d">&middot;&middot;&middot;</div></div>
+          <div class="ig-img">[PROVA REAL AQUI]<br>print real do aluno</div>
+          <div class="ig-a"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9C1.2 8.800 3 5 6.500 5c2 0 3.500 1 5.500 3 2-2 3.500-3 5.500-3C21 5 22.800 8.800 21.300 12c-2.300 4.600-9.300 9-9.300 9z"/></svg><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.700 7L3 21l2-5.500A8 8 0 1 1 21 12z"/></svg><svg viewBox="0 0 24 24"><path d="M22 3L9 14M22 3l-7 18-4-8-8-4z"/></svg></div>
+          <div class="ig-t"><p><b>[PROVA REAL AQUI]</b> curtidas</p><p><b>@[PROVA REAL AQUI]</b> [PROVA REAL AQUI]</p></div>
+        </div>
+      </div>
+      <!-- MODELO 3: se existir assets/img/prova-3.webp (print real), ele aparece no lugar deste quadro. -->
+      <div class="ig"><img class="real" src="assets/img/prova-3.webp" alt="Print de depoimento real de aluno" width="750" height="900" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()">
+        <div class="tpl">
+          <div class="ig-h"><div class="ig-av"><i></i></div><div class="ig-u">[PROVA REAL AQUI]</div><div class="ig-d">&middot;&middot;&middot;</div></div>
+          <div class="ig-img">[PROVA REAL AQUI]<br>print real do aluno</div>
+          <div class="ig-a"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9C1.2 8.800 3 5 6.500 5c2 0 3.500 1 5.500 3 2-2 3.500-3 5.500-3C21 5 22.800 8.800 21.300 12c-2.300 4.600-9.300 9-9.300 9z"/></svg><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.700 7L3 21l2-5.500A8 8 0 1 1 21 12z"/></svg><svg viewBox="0 0 24 24"><path d="M22 3L9 14M22 3l-7 18-4-8-8-4z"/></svg></div>
+          <div class="ig-t"><p><b>[PROVA REAL AQUI]</b> curtidas</p><p><b>@[PROVA REAL AQUI]</b> [PROVA REAL AQUI]</p></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -405,9 +450,9 @@ footer p{margin-bottom:10px;max-width:80ch}
     <h2>Levando hoje, você ganha <em>3 bônus</em></h2>
     <p class="lead">Os três que fecham o método: a conta, o controle e o ponto.</p>
     <div class="bon" style="text-align:left">
-      <div class="bcard"><figure class="media" data-i="book"><img src="app/img/capas/capa-bonus-1-calculadora.webp" alt="Capa do bônus 1: Calculadora de Rendimento e Dosagem" width="600" height="800" loading="lazy" onerror="this.remove()"></figure><div><span class="tag">BÔNUS 01</span><h3>Calculadora de Rendimento e Dosagem</h3><p>Você coloca quanto material tem e quantas porções quer; ela devolve a dose de cada pedaço.</p><div class="val"><s>valor <span class="pend">[PREÇO A CONFIRMAR: bônus 1]</span></s> <b>GRÁTIS</b></div></div></div>
-      <div class="bcard"><figure class="media" data-i="shield"><img src="app/img/capas/capa-bonus-2-reducao-de-danos.webp" alt="Capa do bônus 2: Manual de Redução de Danos" width="600" height="800" loading="lazy" onerror="this.remove()"></figure><div><span class="tag">BÔNUS 02</span><h3>Manual de Redução de Danos</h3><p>Como começar baixo, quanto esperar antes de repetir e o que fazer se passar do ponto.</p><div class="val"><s>valor <span class="pend">[PREÇO A CONFIRMAR: bônus 2]</span></s> <b>GRÁTIS</b></div></div></div>
-      <div class="bcard"><figure class="media" data-i="book"><img src="app/img/capas/capa-bonus-3-tabela-ponto-certo.webp" alt="Capa do bônus 3: A Tabela do Ponto Certo" width="600" height="800" loading="lazy" onerror="this.remove()"></figure><div><span class="tag">BÔNUS 03</span><h3>A Tabela do Ponto Certo</h3><p>Tempo e temperatura de air fryer, forno e banho-maria numa folha só, pra colar na geladeira e acertar de primeira.</p><div class="val"><s>valor <span class="pend">[PREÇO A CONFIRMAR: bônus 3]</span></s> <b>GRÁTIS</b></div></div></div>
+      <div class="bcard"><figure class="media" data-i="book"><img src="assets/img/capa-bonus-1-calculadora.webp" alt="Capa do bônus 1: Calculadora de Rendimento e Dosagem" width="600" height="800" loading="lazy" onerror="this.remove()"></figure><div><span class="tag">BÔNUS 01</span><h3>Calculadora de Rendimento e Dosagem</h3><p>Você coloca quanto material tem e quantas porções quer; ela devolve a dose de cada pedaço.</p><div class="val"><s>valor <span>R$ 19</span></s> <b>GRÁTIS</b></div></div></div>
+      <div class="bcard"><figure class="media" data-i="shield"><img src="assets/img/capa-bonus-2-reducao-de-danos.webp" alt="Capa do bônus 2: Manual de Redução de Danos" width="600" height="800" loading="lazy" onerror="this.remove()"></figure><div><span class="tag">BÔNUS 02</span><h3>Manual de Redução de Danos</h3><p>Como começar baixo, quanto esperar antes de repetir e o que fazer se passar do ponto.</p><div class="val"><s>valor <span>R$ 17</span></s> <b>GRÁTIS</b></div></div></div>
+      <div class="bcard"><figure class="media" data-i="book"><img src="assets/img/capa-bonus-3-tabela-ponto-certo.webp" alt="Capa do bônus 3: A Tabela do Ponto Certo" width="600" height="800" loading="lazy" onerror="this.remove()"></figure><div><span class="tag">BÔNUS 03</span><h3>A Tabela do Ponto Certo</h3><p>Tempo e temperatura de air fryer, forno e banho-maria numa folha só, pra colar na geladeira e acertar de primeira.</p><div class="val"><s>valor <span>R$ 15</span></s> <b>GRÁTIS</b></div></div></div>
     </div>
     <p class="fecha">Tudo isso sai de graça adquirindo hoje.</p>
     <div class="btn-wrap"><a class="btn" href="#checkout-premium">Quero o pacote com os 3 bônus <svg class="i"><use href="#arrow"/></svg></a></div>
@@ -435,8 +480,8 @@ footer p{margin-bottom:10px;max-width:80ch}
           <li><svg class="i"><use href="#file"/></svg>Bônus 3: A Tabela do Ponto Certo</li>
           <li><svg class="i"><use href="#recycle"/></svg>Atualizações do guia sem pagar de novo</li>
         </ul>
-        <p class="anch">Leve o pacote completo de <s class="pend">[PREÇO A CONFIRMAR: âncora, 5 a 7x o Premium]</s> por apenas</p>
-        <p class="price"><span class="pend">[PREÇO A CONFIRMAR: Premium]</span></p>
+        <p class="anch">Leve o pacote completo de <s>R$ 147</s> por apenas</p>
+        <p class="price"><span>R$ 37</span></p>
         <p class="sub">Pagamento único, oferta por tempo limitado</p>
         <a class="btn" id="checkout-premium-btn" href="#checkout-premium">Quero o pacote completo agora <svg class="i"><use href="#arrow"/></svg></a>
       </div>
@@ -446,7 +491,7 @@ footer p{margin-bottom:10px;max-width:80ch}
           <li><svg class="i"><use href="#check"/></svg>Guia Cozinha Verde (app + PDF) com as 55 receitas</li>
           <li class="no"><svg class="i"><use href="#x"/></svg>Sem a Calculadora, sem o Manual de Redução de Danos, sem a Tabela do Ponto Certo</li>
         </ul>
-        <p class="price"><span class="pend">[PREÇO A CONFIRMAR: Básico]</span></p>
+        <p class="price"><span>R$ 17</span></p>
         <p class="sub">Pagamento único</p>
         <a class="btn ghost" id="checkout-basico-btn" href="#checkout-basico" data-open-downsell>Quero só o guia</a>
       </div>
@@ -522,9 +567,9 @@ footer p{margin-bottom:10px;max-width:80ch}
       <li><svg class="i"><use href="#shield"/></svg>Manual de Redução de Danos</li>
       <li><svg class="i"><use href="#file"/></svg>Tabela do Ponto Certo</li>
     </ul>
-    <p class="anch">De <s class="pend">[PREÇO A CONFIRMAR: âncora]</s> por</p>
-    <p class="price"><span class="pend">[PREÇO A CONFIRMAR: Premium]</span></p>
-    <p class="anch"><span class="pend">[PREÇO A CONFIRMAR: Premium]</span> hoje, ou continuar queimando material a cada fornada errada.</p>
+    <p class="anch">De <s>R$ 147</s> por</p>
+    <p class="price"><span>R$ 37</span></p>
+    <p class="anch"><span>R$ 37</span> hoje, ou continuar queimando material a cada fornada errada.</p>
     <div class="btn-wrap"><a class="btn" id="cta-final" href="#checkout-premium">Quero acesso total agora <svg class="i"><use href="#arrow"/></svg></a></div>
     <p class="small">O timer lá em cima não é enfeite. Quando zerar, o preço de lançamento sai do ar.<br>Compra segura · Garantia de 7 dias</p>
   </div>
@@ -544,7 +589,7 @@ footer p{margin-bottom:10px;max-width:80ch}
 
 <!-- barra fixa -->
 <div class="sticky" id="sticky" aria-hidden="true">
-  <div class="t">Acesso por <b class="pend">[PREÇO A CONFIRMAR]</b><br>oferta até <b class="timer" data-timer>15:00</b></div>
+  <div class="t">Acesso por <b>R$ 37</b><br>oferta até <b class="timer" data-timer>15:00</b></div>
   <a class="btn" href="#checkout-premium">Começar <svg class="i"><use href="#arrow"/></svg></a>
 </div>
 
@@ -553,8 +598,8 @@ footer p{margin-bottom:10px;max-width:80ch}
   <div class="mbox">
     <button class="x" type="button" data-close aria-label="Fechar">×</button>
     <h3 id="dsT">Espera! Não leva só metade.</h3>
-    <p>Sem os bônus você fica sem a calculadora da dose e sem a tabela do ponto, justo as duas coisas que fazem você acertar de primeira. Por só <span class="pend">[PREÇO A CONFIRMAR: diferença]</span> a mais, você leva tudo: Guia + Calculadora + Manual de Redução de Danos + Tabela do Ponto Certo.</p>
-    <p class="anch">De <s class="pend">[PREÇO A CONFIRMAR: Premium]</s> por <b class="pend">[PREÇO A CONFIRMAR: downsell]</b></p>
+    <p>Sem os bônus você fica sem a calculadora da dose e sem a tabela do ponto, justo as duas coisas que fazem você acertar de primeira. Por só <span>R$ 10</span> a mais, você leva tudo: Guia + Calculadora + Manual de Redução de Danos + Tabela do Ponto Certo.</p>
+    <p class="anch">De <s>R$ 37</s> por <b>R$ 27</b></p>
     <a class="btn" id="checkout-downsell" href="#checkout-downsell-link" style="margin-top:12px">Sim, quero o pacote completo</a>
     <a class="sec" id="checkout-basico-link" href="#checkout-basico">Não, quero só o guia</a>
   </div>
