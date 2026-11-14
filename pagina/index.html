@@ -1,5 +1,18 @@
 <!doctype html>
 <html lang="pt-BR">
+<!--
+=====================================================================================
+PAGINA EM CONSTRUCAO: VARIOS ITENS SAO ILUSTRATIVOS E SERAO ALTERADOS COM O TEMPO.
+ - Precos: Premium R$37, Basico R$17, bonus riscados (R$19/R$17/R$15), ancora R$147 e downsell R$27 sao valores
+   de modelo definidos para teste. Ajustar junto com o checkout real.
+ - Timer de 15 min: apenas demonstrativo. Se a copy disser que o preco sai do ar, o preco precisa mesmo mudar.
+ - Prova social (carrossel de DMs): so tem [PROVA REAL AQUI]. Trocar por prints REAIS e autorizados em
+   assets/img/prova-1.webp ... prova-5.webp. Nao ha depoimento inventado na pagina publica.
+ - Imagens ainda como fallback: og-image, maria-eduarda (salvar o arquivo em assets/img/maria-eduarda.webp), selo-garantia-7-dias.
+ - Foto do topo (hero-mockup.webp) e uma copia da pilha-bonus.webp: trocar quando o heroi dedicado ficar pronto.
+=====================================================================================
+-->
+
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -82,7 +95,7 @@ h2 em,h1 em{font-style:normal;color:var(--amber2)}
 .badge{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(166,255,122,.5);background:rgba(166,255,122,.08);color:var(--lime);font-weight:800;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;border-radius:99px;padding:8px 16px;margin-bottom:18px}
 .hero h1{font-size:clamp(1.95rem,7.4vw,3.6rem);font-weight:800;color:#fff;margin-bottom:18px}
 .hero .lead{font-size:1.08rem}
-.hero-media{aspect-ratio:1/1;box-shadow:0 0 0 1px rgba(166,255,122,.25),0 30px 80px rgba(0,0,0,.5),0 0 90px rgba(166,255,122,.12)}
+.hero-media{aspect-ratio:16/10;box-shadow:0 0 0 1px rgba(166,255,122,.25),0 30px 80px rgba(0,0,0,.5),0 0 90px rgba(166,255,122,.12)}
 .cap{font-size:.84rem;color:#b8cdbf;margin-top:10px;text-align:center}
 .proof{margin-top:14px;font-size:.84rem;color:#b8cdbf}
 
@@ -137,21 +150,52 @@ h2 em,h1 em{font-style:normal;color:var(--amber2)}
 .stars{color:#f5a623;letter-spacing:2px}
 
 
-/* prova social: quadro estilo Instagram (MODELO) */
-.igw{display:grid;gap:16px;margin-top:28px}
-.ig{background:#fff;border:1px solid #dbdbdb;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);text-align:left;font-family:-apple-system,'SF Pro Text',Roboto,Helvetica,Arial,sans-serif;color:#262626}
-.ig .real{display:none;width:100%;height:auto}
-.ig.has .real{display:block}.ig.has .tpl{display:none}
-.ig-h{display:flex;align-items:center;gap:10px;padding:12px 14px}
-.ig-av{width:36px;height:36px;border-radius:50%;padding:2px;background:conic-gradient(#f58529,#dd2a7b,#8134af,#515bd4,#f58529);flex:none}
-.ig-av i{display:block;width:100%;height:100%;border-radius:50%;background:#e9e9e9;border:2px solid #fff}
-.ig-u{font-weight:600;font-size:.9rem;flex:1}
-.ig-d{letter-spacing:2px;font-weight:800}
-.ig-img{aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#f3f3f3 0 12px,#fafafa 12px 24px);display:grid;place-items:center;text-align:center;padding:22px;color:#8e8e8e;font-weight:700;border-block:1px solid #efefef}
-.ig-a{display:flex;gap:14px;padding:12px 14px 4px}
-.ig-a svg{width:24px;height:24px;fill:none;stroke:#262626;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.ig-t{padding:4px 14px 16px;font-size:.92rem;line-height:1.4}
-.ig-t p{margin-bottom:4px}
+/* PRINTS INSTAGRAM DM (MODELO) - estilos isolados (prefixo dm-). 1em = 1/26 da largura do print */
+.dm-proof{margin:28px 0 8px;min-width:0}
+.dm-rail{position:relative;max-width:100%;overflow:hidden;cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 9%,#000 91%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 9%,#000 91%,transparent 100%)}
+.dm-rail.dm-drag{cursor:grabbing}
+.dm-rail img{-webkit-user-drag:none;pointer-events:none}
+.dm-track{display:flex;align-items:center;width:max-content;padding:30px 0 52px;will-change:transform;transform:translate3d(0,0,0);backface-visibility:hidden}
+.dm-shot{flex:0 0 min(244px,64vw);width:min(244px,64vw);aspect-ratio:390/640;container-type:inline-size;position:relative;margin:0 -26px 0 0;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 0 0 1px rgba(255,255,255,.08),0 16px 34px -10px rgba(0,0,0,.7);transform:rotate(var(--rt,0deg)) translateY(var(--ty,0)) translateZ(0)}
+.dm-track>.dm-shot:nth-child(5n+1){--rt:-2.4deg;--ty:6px;z-index:2}
+.dm-track>.dm-shot:nth-child(5n+2){--rt:1.8deg;--ty:-12px;z-index:4}
+.dm-track>.dm-shot:nth-child(5n+3){--rt:-1.2deg;--ty:12px;z-index:3}
+.dm-track>.dm-shot:nth-child(5n+4){--rt:2.6deg;--ty:-6px;z-index:5}
+.dm-track>.dm-shot:nth-child(5n+5){--rt:-2deg;--ty:14px;z-index:2}
+.dm-screen{position:relative;display:flex;flex-direction:column;height:100%;font-size:calc(100cqw/26);line-height:1.28;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#000;color:#fff}
+.dm-status{display:flex;justify-content:space-between;align-items:center;padding:1.05em 1.7em .3em 1.9em;font-weight:700;font-size:1.05em}
+.dm-sr{display:flex;align-items:center;gap:.5em}
+.dm-sig{display:flex;align-items:flex-end;gap:.16em;height:.95em}.dm-sig i{display:block;width:.24em;background:#fff;border-radius:.06em}.dm-sig i:nth-child(1){height:45%}.dm-sig i:nth-child(2){height:70%}.dm-sig i:nth-child(3){height:100%}
+.dm-bat{display:inline-block;width:2.1em;height:.95em;border-radius:.34em;background:#30d158}
+.dm-head{display:flex;align-items:center;gap:.6em;padding:.55em .8em .5em .6em}
+.dm-ic{flex:none;display:flex;align-items:center;justify-content:center;width:2.5em;height:2.5em;border-radius:50%;background:#262626;color:#fff}
+.dm-ic svg{width:1.15em;height:1.15em}
+.dm-av{flex:none;width:2.4em;height:2.4em;border-radius:50%;object-fit:cover;background:#333;display:block}
+.dm-who{flex:1;min-width:0;line-height:1.2}.dm-who b{display:block;font-size:1.05em;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dm-who span{display:block;font-size:.88em;color:#a8a8a8;white-space:nowrap}
+.dm-hi{display:flex;gap:.45em}
+.dm-chat{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:flex-end;gap:.22em;padding:0 .7em .7em;overflow:hidden}
+.dm-time{align-self:center;margin:.3em 0 .5em;font-size:.82em;color:#a8a8a8}
+.dm-row{display:flex;align-items:flex-end;gap:.5em}
+.dm-row.out{justify-content:flex-end}
+.dm-sav{flex:none;width:1.9em;height:1.9em}.dm-sav img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover}
+.dm-b{max-width:80%;padding:.62em 1em;border-radius:1.5em;font-size:1.06em;line-height:1.3;word-wrap:break-word}
+.dm-row.in .dm-b{background:#262626}
+.dm-row.out .dm-b{background:linear-gradient(135deg,#7b3ff0,#a935d9);max-width:76%}
+.dm-au{width:15.5em;max-width:84%;padding:.7em 1em .6em;border-radius:1.5em;background:#262626}
+.dm-aurow{display:flex;align-items:center;gap:.7em}
+.dm-play{flex:none;width:1.6em;height:1.6em;color:#fff}
+.dm-wave{flex:1;display:flex;align-items:center;gap:.14em;height:1.9em}.dm-wave i{display:block;flex:1;min-width:.12em;background:#fff;border-radius:.1em}
+.dm-dur{font-size:.85em}
+.dm-tr{display:block;margin-top:.55em;font-size:.88em;color:#a8a8a8}
+.dm-foot{display:flex;align-items:center;gap:.7em;margin:0 .7em .8em;padding:.5em .7em .5em .5em;border-radius:2em;background:#1c1c1e;color:#8e8e8e}
+.dm-cam{flex:none;width:2.1em;height:2.1em;border-radius:50%;background:#3d5afe;display:flex;align-items:center;justify-content:center}.dm-cam i{display:block;width:.8em;height:.8em;border:.17em solid #fff;border-radius:50%}
+.dm-field{flex:1;font-size:1.02em}
+.dm-foot svg{width:1.3em;height:1.3em;flex:none}
+
+.dm-shot .dm-real{display:none;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:6;background:#000}
+.dm-shot.has .dm-real{display:block}
+.dm-av:not(img){display:block}
+.dm-who b.ph{color:#a8e88a}
 
 /* bônus */
 .bon{display:grid;grid-template-columns:1fr;gap:16px;margin-top:30px}
@@ -183,6 +227,19 @@ h2 em,h1 em{font-style:normal;color:var(--amber2)}
 .plan.bas .sub,.plan.bas .anch{color:#b8cdbf}
 .seals{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;margin-top:26px;font-size:.84rem;font-weight:600;color:#b8cdbf}
 .seals span{display:inline-flex;gap:6px;align-items:center}.seals .i{color:var(--lime)}
+
+
+/* celular + notebook mostrando o app */
+.devices{position:relative;display:block;max-width:330px;margin:0 auto 18px;padding-bottom:4px}
+.laptop{width:86%}
+.lscreen{position:relative;aspect-ratio:16/10;border:5px solid #1b1b1b;border-bottom-width:6px;border-radius:10px 10px 0 0;overflow:hidden;background:radial-gradient(120% 90% at 30% 10%,#1f5a3c,transparent 60%),#0a1f15}
+.lbase{height:9px;margin:0 -5%;background:linear-gradient(#dcdcdc,#8f8f8f);border-radius:0 0 14px 14px}
+.mphone{position:absolute;right:0;bottom:-6px;width:27%;aspect-ratio:9/18.5;border:3px solid #0b0b0b;border-radius:12px;overflow:hidden;background:radial-gradient(120% 90% at 30% 10%,#1f5a3c,transparent 60%),#0a1f15;box-shadow:0 10px 24px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.12)}
+.devices img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.devnote{text-align:center;font-size:.8rem;font-weight:600;color:var(--muted);margin:-4px 0 16px}
+.plan.bas .devnote{color:#b8cdbf}
+.plan .cover{position:relative;width:150px;aspect-ratio:3/4;margin:0 auto 18px;border-radius:12px;overflow:hidden;background:radial-gradient(120% 90% at 30% 10%,#1f5a3c,transparent 60%),#0a1f15;box-shadow:0 14px 30px rgba(0,0,0,.45)}
+.plan .cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 
 /* garantia e autora */
 .gar{display:grid;gap:24px;align-items:center}
@@ -242,7 +299,6 @@ footer p{margin-bottom:10px;max-width:80ch}
   .ben{grid-template-columns:1fr 1fr}
   .cols2{grid-template-columns:1fr 1fr;align-items:start}
   .vit{grid-template-columns:repeat(3,1fr)}
-  .igw{grid-template-columns:repeat(3,1fr)}
   .bon{grid-template-columns:1fr 1fr 1fr}
   .bcard{grid-template-columns:1fr;text-align:center}
   .bcard .media{max-width:190px;margin-inline:auto;width:100%}
@@ -308,7 +364,7 @@ footer p{margin-bottom:10px;max-width:80ch}
       <p class="proof"><span class="pend">[PROVA REAL AQUI]</span> número real de alunos e nota real</p>
     </div>
     <div>
-      <figure class="media hero-media" data-i="book"><img src="assets/img/hero-mockup.webp" alt="Guia Cozinha Verde em capa dura ao lado de um celular com o app aberto, um brownie cortado e a panela de manteiga" width="1200" height="1200" fetchpriority="high" onerror="this.remove()"></figure>
+      <figure class="media hero-media" data-i="book"><img src="assets/img/hero-mockup.webp" alt="Guia Cozinha Verde e os 3 bônus: calculadora, manual de redução de danos e tabela do ponto certo" width="1200" height="750" fetchpriority="high" onerror="this.remove()"></figure>
       <p class="cap">Guia + app + 55 receitas. Tudo liberado na hora.</p>
     </div>
   </div>
@@ -404,41 +460,74 @@ footer p{margin-bottom:10px;max-width:80ch}
 </section>
 
 <!-- 8. DEPOIMENTOS -->
-<!-- MODELO (TEMPLATE): 3 quadros no estilo de print do Instagram. O texto aqui e apenas placeholder de [PROVA REAL AQUI].
-     Para publicar: salve prints REAIS e autorizados em assets/img/prova-1.webp, prova-2.webp e prova-3.webp (750x900).
-     Quando o arquivo existe, o print real substitui o quadro automaticamente. Nao inventar nome, comentario ou numero. -->
-<section>
+<!-- MODELO (TEMPLATE) no formato do carrossel de DMs do Instagram usado nas outras paginas (visual copiado da pagina da porcelana).
+     O conteudo aqui e apenas [PROVA REAL AQUI]: NAO foram criados nomes, falas nem numeros.
+     Para publicar: salve prints REAIS e autorizados em assets/img/prova-1.webp ... prova-5.webp (proporcao 390x640, ex.: 780x1280).
+     Quando o arquivo existe, o print real substitui a tela-modelo automaticamente. Telas sem arquivo continuam como modelo. -->
+<section class="proof">
   <div class="wrap center rv">
     <span class="kicker">Quem já fez</span>
     <h2>Quem fez no ponto <em>não volta pro chute</em></h2>
-    <div class="igw">
-      <!-- MODELO 1: se existir assets/img/prova-1.webp (print real), ele aparece no lugar deste quadro. -->
-      <div class="ig"><img class="real" src="assets/img/prova-1.webp" alt="Print de depoimento real de aluno" width="750" height="900" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()">
-        <div class="tpl">
-          <div class="ig-h"><div class="ig-av"><i></i></div><div class="ig-u">[PROVA REAL AQUI]</div><div class="ig-d">&middot;&middot;&middot;</div></div>
-          <div class="ig-img">[PROVA REAL AQUI]<br>print real do aluno</div>
-          <div class="ig-a"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9C1.2 8.800 3 5 6.500 5c2 0 3.500 1 5.500 3 2-2 3.500-3 5.500-3C21 5 22.800 8.800 21.300 12c-2.300 4.600-9.300 9-9.300 9z"/></svg><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.700 7L3 21l2-5.500A8 8 0 1 1 21 12z"/></svg><svg viewBox="0 0 24 24"><path d="M22 3L9 14M22 3l-7 18-4-8-8-4z"/></svg></div>
-          <div class="ig-t"><p><b>[PROVA REAL AQUI]</b> curtidas</p><p><b>@[PROVA REAL AQUI]</b> [PROVA REAL AQUI]</p></div>
+    <p class="lead">Deslize para ver as mensagens.</p>
+    <div class="dm-proof">
+      <div class="dm-rail" data-dmcar tabindex="0" aria-label="Carrossel de mensagens de alunos"><div class="dm-track">
+      <!-- MODELO 1: se existir assets/img/prova-1.webp (print REAL e autorizado), ele aparece no lugar desta tela. -->
+      <figure class="dm-shot"><img class="dm-real" src="assets/img/prova-1.webp" alt="Print de mensagem real de aluno" width="390" height="640" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()"><div class="dm-screen" role="img" aria-label="Modelo de conversa no Instagram">
+        <div class="dm-status"><span>9:41</span><span class="dm-sr"><span class="dm-sig" aria-hidden="true"><i></i><i></i><i></i></span><span class="dm-bat"></span></span></div>
+        <div class="dm-head"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M15 5l-7 7 7 7'/></svg></span><span class="dm-av"></span><div class="dm-who"><b class="ph">[PROVA REAL AQUI]</b><span>Instagram</span></div><span class="dm-hi"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2'/></svg></span><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><rect x='3' y='6' width='13' height='12' rx='2'/><path d='M16 10l5-3v10l-5-3'/></svg></span></span></div>
+        <div class="dm-chat"><span class="dm-time">[PROVA REAL AQUI]</span>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row out"><div class="dm-b">[PROVA REAL AQUI]</div></div>
         </div>
-      </div>
-      <!-- MODELO 2: se existir assets/img/prova-2.webp (print real), ele aparece no lugar deste quadro. -->
-      <div class="ig"><img class="real" src="assets/img/prova-2.webp" alt="Print de depoimento real de aluno" width="750" height="900" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()">
-        <div class="tpl">
-          <div class="ig-h"><div class="ig-av"><i></i></div><div class="ig-u">[PROVA REAL AQUI]</div><div class="ig-d">&middot;&middot;&middot;</div></div>
-          <div class="ig-img">[PROVA REAL AQUI]<br>print real do aluno</div>
-          <div class="ig-a"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9C1.2 8.800 3 5 6.500 5c2 0 3.500 1 5.500 3 2-2 3.500-3 5.500-3C21 5 22.800 8.800 21.300 12c-2.300 4.600-9.300 9-9.300 9z"/></svg><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.700 7L3 21l2-5.500A8 8 0 1 1 21 12z"/></svg><svg viewBox="0 0 24 24"><path d="M22 3L9 14M22 3l-7 18-4-8-8-4z"/></svg></div>
-          <div class="ig-t"><p><b>[PROVA REAL AQUI]</b> curtidas</p><p><b>@[PROVA REAL AQUI]</b> [PROVA REAL AQUI]</p></div>
+        <div class="dm-foot"><span class="dm-cam"><i></i></span><span class="dm-field">Mensagem...</span></div>
+      </div></figure>
+      <!-- MODELO 2: se existir assets/img/prova-2.webp (print REAL e autorizado), ele aparece no lugar desta tela. -->
+      <figure class="dm-shot"><img class="dm-real" src="assets/img/prova-2.webp" alt="Print de mensagem real de aluno" width="390" height="640" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()"><div class="dm-screen" role="img" aria-label="Modelo de conversa no Instagram">
+        <div class="dm-status"><span>9:41</span><span class="dm-sr"><span class="dm-sig" aria-hidden="true"><i></i><i></i><i></i></span><span class="dm-bat"></span></span></div>
+        <div class="dm-head"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M15 5l-7 7 7 7'/></svg></span><span class="dm-av"></span><div class="dm-who"><b class="ph">[PROVA REAL AQUI]</b><span>Instagram</span></div><span class="dm-hi"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2'/></svg></span><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><rect x='3' y='6' width='13' height='12' rx='2'/><path d='M16 10l5-3v10l-5-3'/></svg></span></span></div>
+        <div class="dm-chat"><span class="dm-time">[PROVA REAL AQUI]</span>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row out"><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
         </div>
-      </div>
-      <!-- MODELO 3: se existir assets/img/prova-3.webp (print real), ele aparece no lugar deste quadro. -->
-      <div class="ig"><img class="real" src="assets/img/prova-3.webp" alt="Print de depoimento real de aluno" width="750" height="900" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()">
-        <div class="tpl">
-          <div class="ig-h"><div class="ig-av"><i></i></div><div class="ig-u">[PROVA REAL AQUI]</div><div class="ig-d">&middot;&middot;&middot;</div></div>
-          <div class="ig-img">[PROVA REAL AQUI]<br>print real do aluno</div>
-          <div class="ig-a"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9C1.2 8.800 3 5 6.500 5c2 0 3.500 1 5.500 3 2-2 3.500-3 5.500-3C21 5 22.800 8.800 21.300 12c-2.300 4.600-9.300 9-9.300 9z"/></svg><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.700 7L3 21l2-5.500A8 8 0 1 1 21 12z"/></svg><svg viewBox="0 0 24 24"><path d="M22 3L9 14M22 3l-7 18-4-8-8-4z"/></svg></div>
-          <div class="ig-t"><p><b>[PROVA REAL AQUI]</b> curtidas</p><p><b>@[PROVA REAL AQUI]</b> [PROVA REAL AQUI]</p></div>
+        <div class="dm-foot"><span class="dm-cam"><i></i></span><span class="dm-field">Mensagem...</span></div>
+      </div></figure>
+      <!-- MODELO 3: se existir assets/img/prova-3.webp (print REAL e autorizado), ele aparece no lugar desta tela. -->
+      <figure class="dm-shot"><img class="dm-real" src="assets/img/prova-3.webp" alt="Print de mensagem real de aluno" width="390" height="640" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()"><div class="dm-screen" role="img" aria-label="Modelo de conversa no Instagram">
+        <div class="dm-status"><span>9:41</span><span class="dm-sr"><span class="dm-sig" aria-hidden="true"><i></i><i></i><i></i></span><span class="dm-bat"></span></span></div>
+        <div class="dm-head"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M15 5l-7 7 7 7'/></svg></span><span class="dm-av"></span><div class="dm-who"><b class="ph">[PROVA REAL AQUI]</b><span>Instagram</span></div><span class="dm-hi"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2'/></svg></span><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><rect x='3' y='6' width='13' height='12' rx='2'/><path d='M16 10l5-3v10l-5-3'/></svg></span></span></div>
+        <div class="dm-chat"><span class="dm-time">[PROVA REAL AQUI]</span>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
         </div>
-      </div>
+        <div class="dm-foot"><span class="dm-cam"><i></i></span><span class="dm-field">Mensagem...</span></div>
+      </div></figure>
+      <!-- MODELO 4: se existir assets/img/prova-4.webp (print REAL e autorizado), ele aparece no lugar desta tela. -->
+      <figure class="dm-shot"><img class="dm-real" src="assets/img/prova-4.webp" alt="Print de mensagem real de aluno" width="390" height="640" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()"><div class="dm-screen" role="img" aria-label="Modelo de conversa no Instagram">
+        <div class="dm-status"><span>9:41</span><span class="dm-sr"><span class="dm-sig" aria-hidden="true"><i></i><i></i><i></i></span><span class="dm-bat"></span></span></div>
+        <div class="dm-head"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M15 5l-7 7 7 7'/></svg></span><span class="dm-av"></span><div class="dm-who"><b class="ph">[PROVA REAL AQUI]</b><span>Instagram</span></div><span class="dm-hi"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2'/></svg></span><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><rect x='3' y='6' width='13' height='12' rx='2'/><path d='M16 10l5-3v10l-5-3'/></svg></span></span></div>
+        <div class="dm-chat"><span class="dm-time">[PROVA REAL AQUI]</span>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row out"><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+        </div>
+        <div class="dm-foot"><span class="dm-cam"><i></i></span><span class="dm-field">Mensagem...</span></div>
+      </div></figure>
+      <!-- MODELO 5: se existir assets/img/prova-5.webp (print REAL e autorizado), ele aparece no lugar desta tela. -->
+      <figure class="dm-shot"><img class="dm-real" src="assets/img/prova-5.webp" alt="Print de mensagem real de aluno" width="390" height="640" loading="lazy" onload="this.parentNode.classList.add('has')" onerror="this.remove()"><div class="dm-screen" role="img" aria-label="Modelo de conversa no Instagram">
+        <div class="dm-status"><span>9:41</span><span class="dm-sr"><span class="dm-sig" aria-hidden="true"><i></i><i></i><i></i></span><span class="dm-bat"></span></span></div>
+        <div class="dm-head"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M15 5l-7 7 7 7'/></svg></span><span class="dm-av"></span><div class="dm-who"><b class="ph">[PROVA REAL AQUI]</b><span>Instagram</span></div><span class="dm-hi"><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2'/></svg></span><span class="dm-ic"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><rect x='3' y='6' width='13' height='12' rx='2'/><path d='M16 10l5-3v10l-5-3'/></svg></span></span></div>
+        <div class="dm-chat"><span class="dm-time">[PROVA REAL AQUI]</span>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row out"><div class="dm-b">[PROVA REAL AQUI]</div></div>
+          <div class="dm-row in"><span class="dm-sav"></span><div class="dm-b">[PROVA REAL AQUI]</div></div>
+        </div>
+        <div class="dm-foot"><span class="dm-cam"><i></i></span><span class="dm-field">Mensagem...</span></div>
+      </div></figure>
+      </div></div>
     </div>
   </div>
 </section>
@@ -472,6 +561,11 @@ footer p{margin-bottom:10px;max-width:80ch}
         <span class="pill">MAIS VENDIDO</span>
         <h3>Plano Premium</h3>
         <figure class="media" data-i="book"><img src="assets/img/pilha-bonus.webp" alt="Guia Cozinha Verde e os 3 bônus empilhados" width="1200" height="750" loading="lazy" onerror="this.remove()"></figure>
+        <div class="devices" role="img" aria-label="Acesso ao aplicativo no notebook e no celular">
+          <div class="laptop"><div class="lscreen"><img src="assets/img/mockup-notebook.webp" alt="" width="1280" height="800" loading="lazy" onerror="this.remove()"></div><div class="lbase"></div></div>
+          <div class="mphone"><img src="assets/img/mockup-app.webp" alt="" width="500" height="844" loading="lazy" onerror="this.remove()"></div>
+        </div>
+        <p class="devnote">Acesso no celular e no notebook, com o aplicativo</p>
         <ul>
           <li><svg class="i"><use href="#check"/></svg>Guia Cozinha Verde vitalício (app + PDF): a descarboxilação passo a passo</li>
           <li><svg class="i"><use href="#check"/></svg>As 55 receitas no ponto, com a dose por porção</li>
@@ -487,6 +581,12 @@ footer p{margin-bottom:10px;max-width:80ch}
       </div>
       <div class="plan bas">
         <h3>Plano Básico</h3>
+        <figure class="cover"><img src="assets/img/capa-guia.webp" alt="Capa do Guia Cozinha Verde" width="900" height="1200" loading="lazy" onerror="this.remove()"></figure>
+        <div class="devices" role="img" aria-label="Acesso ao aplicativo no notebook e no celular">
+          <div class="laptop"><div class="lscreen"><img src="assets/img/mockup-notebook.webp" alt="" width="1280" height="800" loading="lazy" onerror="this.remove()"></div><div class="lbase"></div></div>
+          <div class="mphone"><img src="assets/img/mockup-app.webp" alt="" width="500" height="844" loading="lazy" onerror="this.remove()"></div>
+        </div>
+        <p class="devnote">Acesso no celular e no notebook, com o aplicativo</p>
         <ul>
           <li><svg class="i"><use href="#check"/></svg>Guia Cozinha Verde (app + PDF) com as 55 receitas</li>
           <li class="no"><svg class="i"><use href="#x"/></svg>Sem a Calculadora, sem o Manual de Redução de Danos, sem a Tabela do Ponto Certo</li>
@@ -631,6 +731,30 @@ footer p{margin-bottom:10px;max-width:80ch}
   m.addEventListener('click',function(e){if(e.target===m||e.target.hasAttribute('data-close'))close()});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&m.classList.contains('on'))close()});
 })();
+</script>
+<script>
+/* PRINTS INSTAGRAM DM (MODELO): faixa que anda sozinha (transform via rAF) e arrasta com mouse/dedo */
+(function(){
+  var r=document.querySelector('[data-dmcar]');if(!r)return;
+  var tr=r.querySelector('.dm-track');if(!tr)return;
+  [].slice.call(tr.children).forEach(function(k){var c=k.cloneNode(true);c.setAttribute('aria-hidden','true');tr.appendChild(c)});
+  var x=0,last=0,drag=false,sx=0,x0=0,vis=true,SPEED=(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)?0:0.05;
+  function wrap(){var h=tr.offsetWidth/2;if(h>0)x=((x%h)+h)%h}
+  r.addEventListener('pointerdown',function(e){if(e.pointerType==='mouse'&&e.button!==0)return;drag=true;sx=e.clientX;x0=x;r.classList.add('dm-drag');try{r.setPointerCapture(e.pointerId)}catch(_){}});
+  r.addEventListener('pointermove',function(e){if(!drag)return;x=x0-(e.clientX-sx);wrap()});
+  function up(){if(!drag)return;drag=false;r.classList.remove('dm-drag')}
+  r.addEventListener('pointerup',up);r.addEventListener('pointercancel',up);r.addEventListener('lostpointercapture',up);
+  r.addEventListener('dragstart',function(e){e.preventDefault()});
+  if('IntersectionObserver' in window)new IntersectionObserver(function(es){vis=es[0].isIntersecting},{threshold:0.02}).observe(r);
+  function step(ts){
+    var dt=last?Math.min(ts-last,50):16;last=ts;
+    if(!drag&&vis){x+=SPEED*dt;wrap();tr.style.transform='translate3d('+(-x).toFixed(2)+'px,0,0)'}
+    else if(drag){tr.style.transform='translate3d('+(-x).toFixed(2)+'px,0,0)'}
+    requestAnimationFrame(step)
+  }
+  requestAnimationFrame(step)
+})();
+
 </script>
 </body>
 </html>

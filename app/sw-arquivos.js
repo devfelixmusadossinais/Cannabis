@@ -19,5 +19,9 @@ self.APP_ARQUIVOS = [
   "./data/textos.js",
   "./data/textos.json",
   "./icons/icon-192.png",
-  "./icons/icon-512.png"
+  "./icons/icon-512.png",
+  "./img/capas/capa-bonus-1-calculadora.webp",
+  "./img/capas/capa-bonus-2-reducao-de-danos.webp",
+  "./img/capas/capa-bonus-3-tabela-ponto-certo.webp",
+  "./img/capas/capa-guia.webp"
 ];

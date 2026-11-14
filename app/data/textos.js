@@ -34,7 +34,7 @@ window.DADOS_TEXTOS = {
   "botoes": {
     "voltar": "Voltar",
     "pdf": "Abrir ficha em PDF",
-    "guiaPdf": "Abrir guia em PDF",
+    "guiaPdf": "Baixar guia (PDF)",
     "ler": "Abrir no app",
     "feita": "Marcar como feita",
     "desmarcar": "Marcar como não feita",
@@ -47,7 +47,8 @@ window.DADOS_TEXTOS = {
     "fechar": "Fechar"
   },
   "receitas": {
-    "vazio": "Receitas em montagem",
+    "baixarTodas": "Baixar todas as receitas (PDF)",
+    "vazio": "Nenhuma receita por enquanto.",
     "nenhuma": "Nenhuma receita encontrada",
     "busca": "Buscar receita",
     "placeholder": "Nome ou ingrediente",
@@ -55,7 +56,6 @@ window.DADOS_TEXTOS = {
     "todas": "Todas as categorias",
     "eletrodomestico": "Eletrodoméstico",
     "todos": "Todos os eletrodomésticos",
-    "foto": "Foto em breve",
     "naoEncontrada": "Receita não encontrada",
     "preparo": "Tempo de preparo",
     "forno": "Tempo de forno",
@@ -68,13 +68,22 @@ window.DADOS_TEXTOS = {
     "unidadeDose": "mg de THC por porção",
     "total": "mg de THC no total",
     "referencia": "Potência de referência (exemplo, troque pelo seu rótulo na calculadora)",
-    "referenciaValores": "THCA {thca}% · THC {thc}% · eficiência {eficiencia} [CONFERIR]",
+    "referenciaValores": "THCA {thca}% · THC {thc}% · eficiência {eficiencia} (estimativa conservadora do guia, ajustável de 50% a 90%)",
     "perfil": "Perfil da experiência",
     "intensidade": "Intensidade",
     "inicio": "Início",
     "duracao": "Duração",
     "quandoCombina": "Quando combina",
     "seguranca": "Aviso de dose"
+  },
+  "guia": {
+    "indice": "Capítulos",
+    "lido": "Marcar como lido",
+    "lidoOk": "Lido",
+    "progresso": "{lidos} de {total} capítulos lidos",
+    "atencao": "Atenção",
+    "dica": "Dica",
+    "conta": "Conta"
   },
   "categorias": [
     "Base",
@@ -102,15 +111,15 @@ window.DADOS_TEXTOS = {
   "calculadora": {
     "titulo": "Calculadora de Rendimento e Dosagem",
     "gramas": "Gramas de flor",
-    "thca": "THCA %",
-    "thc": "THC %",
-    "eficiencia": "Eficiência %",
+    "thca": "THCA % do rótulo",
+    "thc": "THC % do rótulo",
+    "eficiencia": "Eficiência",
     "porcoes": "Número de porções",
-    "gordura": "Gordura usada (g, opcional)",
+    "gordura": "Gordura usada em gramas (opcional)",
     "gorduraAjuda": "Só informativo: concentração estimada por 100 g.",
     "resultado": "Resultado",
     "total": "THC total estimado (mg)",
-    "porPorcao": "THC por porção estimado (mg)",
+    "porPorcao": "mg de THC por porção (estimativa)",
     "por100g": "THC por 100 g estimado (mg)",
     "conta": "Conta passo a passo",
     "estimativa": "Estimativa, não é laudo. Teste e rotule.",
@@ -119,14 +128,28 @@ window.DADOS_TEXTOS = {
     "passos": [
       "Flor: {gramas} g × 1000 = {massa} mg",
       "× ({thca} × 0,877 + {thc}) ÷ 100 = {bruto} mg",
-      "× eficiência {eficiencia} [CONFERIR] = {total} mg",
+      "× eficiência {eficiencia} (estimativa conservadora do guia, ajustável de 50% a 90%) = {total} mg",
       "÷ {porcoes} porções = {dose} mg por porção"
-    ]
+    ],
+    "intro": "Em 3 passos você descobre quantos mg de THC vão em cada porção da sua receita.",
+    "passo1": "Seu material",
+    "passo1Ajuda": "Pese a flor e olhe o rótulo: procure THCA e THC em %. Se aparecer só 'Total THC', coloque em THC e deixe THCA em 0.",
+    "passo2": "Sua receita",
+    "passo2Ajuda": "Em quantas porções você vai dividir (ex.: 24 brownies ou 16 colheres de sopa de manteiga).",
+    "passo3": "Eficiência",
+    "passo3Ajuda": "Quanto do THC chega na receita. O guia usa 70% (conservador). Dá para mudar de 50% a 90%.",
+    "exemplo": "Usar exemplo",
+    "exemploNota": "Exemplo: 1 g de flor com 20% de THCA e 0,5% de THC, 24 porções, eficiência de 70%.",
+    "escala": "Onde cai a sua dose",
+    "leitura": {
+      "leve": "Faixa leve: boa para começar. Espere pelo menos 2 horas antes de repetir.",
+      "moderada": "Faixa moderada: só para quem já tem alguma experiência. Espere 2 horas antes de repetir.",
+      "forte": "Faixa forte: não é para iniciante. Divida em mais porções ou use menos flor."
+    }
   },
   "bonus": {
     "titulo": "Bônus",
     "bloqueado": "Bônus disponíveis no plano Premium.",
-    "pendentePdf": "PDF em montagem",
     "naoEncontrado": "Bônus não encontrado"
   },
   "progresso": {
@@ -151,9 +174,5 @@ window.DADOS_TEXTOS = {
     "titulo": "Adicionar à tela inicial",
     "instrucao": "Toque em Compartilhar (quadrado com seta) e depois em 'Adicionar à Tela de Início'",
     "requisito": "O PWA só instala quando o app é aberto por HTTPS ou localhost, não por duplo clique em file://. O botão e a instrução do iPhone funcionam mesmo assim."
-  },
-  "conteudo": {
-    "pendente": "Conteúdo não incluído: instruções de ativação, extração e preparo de comestíveis com cannabis.",
-    "guiaPdf": "PDF do guia em montagem"
   }
 };

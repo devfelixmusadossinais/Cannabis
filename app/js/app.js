@@ -17,6 +17,12 @@
   function render() {
     const state = E.obter();
     let route = location.hash.slice(1) || 'inicio', content, active = route;
+    const chapter = /^cap-\d+$/.test(route) ? route : null;
+    if (chapter) { route = 'guia'; active = 'guia'; }
+    if (chapter && lastRoute === 'guia' && state.confirmou21) {
+      document.getElementById(chapter)?.scrollIntoView();
+      return;
+    }
     if (!state.confirmou21) { content = U.gate(); active = ''; }
     else {
       if (state.plano !== 'premium' && /^bonus-/.test(route)) { location.replace('#bonus'); return; }
@@ -40,11 +46,8 @@
     nav.setAttribute('aria-label',T.nav.aria);
     nav.innerHTML = state.confirmou21 ? U.nav() : '';
     nav.querySelectorAll('[data-nav]').forEach(a=>{if(a.dataset.nav===active)a.setAttribute('aria-current','page');});
-    app.querySelectorAll('[data-recipe-image]').forEach(img=>{
-      img.addEventListener('error',()=>img.remove(),{once:true});
-      if (img.complete && !img.naturalWidth) img.remove();
-    });
     if (changed) { window.scrollTo(0,0); app.focus({preventScroll:true}); }
+    if (chapter) document.getElementById(chapter)?.scrollIntoView();
     lastRoute = route;
     updateStorage();
   }
@@ -56,6 +59,9 @@
     modal.addEventListener('close',()=>{if(previous?.isConnected)previous.focus();},{once:true});
     modal.showModal();
   }
+  document.addEventListener('error',event=>{
+    if (event.target.matches?.('[data-recipe-image], [data-cover-image]')) event.target.remove();
+  },true);
   async function install() {
     if (deferredPrompt) {
       const event = deferredPrompt; deferredPrompt = null;
@@ -76,10 +82,30 @@
     const button = event.target.closest('[data-acao]');
     if (!button || !E.obter().confirmou21) return;
     switch(button.dataset.acao) {
+      case 'exemplo': {
+        const ex = {gramas:'1',thca:'20',thc:'0.5',eficiencia:'70',porcoes:'24',gordura:''};
+        Object.keys(ex).forEach(k=>{U.calcValues[k]=ex[k];const el=document.getElementById('calc-'+k);if(el)el.value=ex[k];});
+        const form = document.getElementById('calc-form');
+        if (form && form.requestSubmit) form.requestSubmit(); else if (form) form.dispatchEvent(new Event('submit',{cancelable:true,bubbles:true}));
+        break;
+      }
       case 'instalar': install();break;
       case 'exportar': exportProgress();break;
       case 'zerar': dialog(T.progresso.confirmarZerar,T.progresso.textoZerar,()=>{E.zerar();render();toast(T.progresso.zerado);});break;
       case 'feita': E.alternar(button.dataset.id);render();toast(T.progresso.salvo);break;
+      case 'lido': {
+        E.alternarLido(button.dataset.id);
+        const read = E.obter().lidos, sections = window.DADOS_GUIA.secoes;
+        const count = sections.filter(s=>read.includes(s.id)).length;
+        const summary = U.template(T.guia.progresso,{lidos:count,total:sections.length});
+        button.setAttribute('aria-pressed',String(read.includes(button.dataset.id)));
+        button.textContent = read.includes(button.dataset.id)?T.guia.lidoOk:T.guia.lido;
+        document.querySelector('[data-guide-progress]').textContent = summary;
+        const bar = document.querySelector('[data-guide-bar]');
+        bar.setAttribute('aria-valuenow',count);bar.setAttribute('aria-label',summary);
+        bar.firstElementChild.style.transform = 'scaleX('+(sections.length?count/sections.length:0)+')';
+        updateStorage();break;
+      }
     }
   });
   document.addEventListener('submit',event=>{
